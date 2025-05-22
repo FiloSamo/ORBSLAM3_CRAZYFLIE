@@ -64,21 +64,24 @@ The IMU noise density and random walk are necessary to perform a joint optimizat
 In order to estimate the noise density and the random walk, It is possible to use the Ros1 package allan_variance_ros. It is necessary to record a ros bag (the longer it is, better it is, suggested 3h) for the /imu0 topic with the drone that is standstill. After the recording, you need run the following commands:
 
 1. Reorganize the messages by timestamps.
-
-        rosrun allan_variance_ros cookbag.py --input original_rosbag --output cooked_rosbag.bag
+    ```bash
+    rosrun allan_variance_ros cookbag.py --input original_rosbag --output cooked_rosbag.bag
+    ```
 
 2. Create a folder where to put the ros bag.
-    
-        mkdir bag_folder
-        mv coocked_rosbag.bag ./bag_folder
+    ```bash
+    mkdir bag_folder
+    mv coocked_rosbag.bag ./bag_folder
+    ```
 3. Create a config file.
-
-        ----
+    ```bash
+    ----
+    ```
 
 4. Run the command for the parameters estimation:
-
-        rosrun ...
-
+    ```bash
+    rosrun ...
+    ```
 
 A imu.yaml file will be created with the estimated parameters.
 
@@ -87,8 +90,6 @@ A imu.yaml file will be created with the estimated parameters.
 After that the camchain.yaml and imu.yaml are ready, you can use the previously recorded ros bag to obtain the homogeneous transformation. 
 
     rosrun kalibr .....
-
-
 
 ## Usage
 
