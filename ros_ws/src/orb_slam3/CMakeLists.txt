@@ -23,9 +23,9 @@ find_package(OpenCV REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(Eigen3 REQUIRED)
 
-set(ORB_SLAM3_DIR "/home/filippo/Ros2/ORBSLAM3_CRAZYFLIE/workspace/ORB_SLAM3")  # Adjust this to your ORB_SLAM3 directory
+set(ORB_SLAM3_DIR "/root/workspace/ORB_SLAM3")  # Adjust this to your ORB_SLAM3 directory
 
-set(PANGOLIN_LIB_DIR "/home/filippo/Ros2/ORBSLAM3_CRAZYFLIE/workspace/Pangolin/build/src/libpangolin.so")  # Adjust this to your Pangolin lib path
+set(PANGOLIN_LIB_DIR "/root/workspace/Pangolin/build/src/libpangolin.so")  # Adjust this to your Pangolin lib path
 
 include_directories(include)
 
