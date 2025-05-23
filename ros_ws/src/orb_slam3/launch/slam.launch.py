@@ -20,7 +20,6 @@ def generate_launch_description():
               {"config_path":settings_file}]
         )
 
-
     return LaunchDescription([
         slam_node
     ])

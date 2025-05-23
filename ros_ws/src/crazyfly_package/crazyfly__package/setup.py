@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'orb_slam3_publishers'
+package_name = 'crazyfly_package'
 
 setup(
     name=package_name,
@@ -13,13 +13,15 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='root',
-    maintainer_email='filippo.samori001@gmail.com',
+    maintainer='student',
+    maintainer_email='student@todo.todo',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'imu_streamer = crazyfly_package.imu_streamer:main',
+            'img_streamer = crazyfly_package.img_streamer:main',
         ],
     },
 )

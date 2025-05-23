@@ -64,6 +64,8 @@ class CrazyflieIMUNode(Node):
         '''
         imu_msg = Imu()
 
+        # self.get_logger().info('Data received: {} '.format(data))
+
         imu_msg.header = Header()
         imu_msg.header.stamp = self.get_clock().now().to_msg()
         imu_msg.header.frame_id = "imu0"

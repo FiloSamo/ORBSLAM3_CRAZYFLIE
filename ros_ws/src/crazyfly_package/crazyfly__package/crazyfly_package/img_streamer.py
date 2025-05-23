@@ -15,7 +15,7 @@ import cv2
 import numpy as np
 import time
 
-TOPIC_IMG = '/cam0/img_raw'
+TOPIC_IMG = '/cam0/image_raw'
 
 
 class CrazyflieIMGNode(Node):
@@ -24,7 +24,7 @@ class CrazyflieIMGNode(Node):
         super().__init__('crazyflie_img_node')
 
         # Publisher
-        self.publisher_ = self.create_publisher(Image, TOPIC_IMG, 10) # Puslishing on the topic
+        self.publisher_ = self.create_publisher(Image, TOPIC_IMG, 50) # Puslishing on the topic
         self.bridge = CvBridge()
 
         parser = argparse.ArgumentParser(description='Fast AI-deck JPEG streamer')
@@ -53,6 +53,7 @@ class CrazyflieIMGNode(Node):
         
     def read_data(self):
         count = 0
+        time = 0
         while True:
             self.get_logger().info("Sto eseguendo")
             try:
@@ -75,6 +76,10 @@ class CrazyflieIMGNode(Node):
                 self.img_publish(img_stream, fmt)
                 count += 1
                 self.get_logger().info('count: %d' % count)
+                second , nsecond  = self.get_clock().now().seconds_nanoseconds()
+                n_time = second + nsecond*1e-9
+                self.get_logger().info('fps: {}'.format(1/(float(n_time) - float(time))))
+                time = n_time
             except Exception as e:
                 print(f"[Receiver Error] {e}")
                 break
@@ -89,7 +94,9 @@ class CrazyflieIMGNode(Node):
             arr = np.frombuffer(img_stream, np.uint8)
             raw = cv2.imdecode(arr, cv2.IMREAD_UNCHANGED)
 
-        img_msg = self.bridge.cv2_to_imgmsg(raw, encoding="mono8")
+        #img = cv2.rotate(raw, cv2.ROTATE_180)
+        img = raw
+        img_msg = self.bridge.cv2_to_imgmsg(img, encoding="mono8")
         img_msg.header = Header()
         img_msg.header.stamp = self.get_clock().now().to_msg()
         img_msg.header.frame_id = "cam0"

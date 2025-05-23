@@ -95,12 +95,12 @@ void DataGrabber::processData()
             tIm = img0Buf.front()->header.stamp.sec + img0Buf.front()->header.stamp.nanosec * 1e-9;
         }
 
-        {
-            std::unique_lock<std::mutex> lk(mImuMutex);
-            while(imu0Buf.empty() || tIm > imu0Buf.back().t){
-                mImuReady.wait(lk);
-            }
-        }
+        // {
+        //     std::unique_lock<std::mutex> lk(mImuMutex);
+        //     while(imu0Buf.empty() || tIm > imu0Buf.back().t){
+        //         mImuReady.wait(lk);
+        //     }
+        // }
 
         {
             std::lock_guard<std::mutex> lock(mImgMutex);
@@ -121,18 +121,18 @@ void DataGrabber::processData()
         std::vector<ORB_SLAM3::IMU::Point> vImuMeas;
         vImuMeas.clear();
 
-        // Check if there are any IMU measurements to process
-        {
-            std::lock_guard<std::mutex> lock(mImuMutex);
-            while(imu0Buf.front().t <= tIm && !imu0Buf.empty()) {
-                vImuMeas.push_back(imu0Buf.front());
-                imu0Buf.pop();
-            }
-        }
+        // // Check if there are any IMU measurements to process
+        // {
+        //     std::lock_guard<std::mutex> lock(mImuMutex);
+        //     while(imu0Buf.front().t <= tIm && !imu0Buf.empty()) {
+        //         vImuMeas.push_back(imu0Buf.front());
+        //         imu0Buf.pop();
+        //     }
+        // }
                         
         try {
-            curr_pose = mpSLAM->TrackMonocular(im, tIm, vImuMeas); 
-            //curr_pose = mpSLAM->TrackMonocular(im, tIm); // Without IMU measurements
+            //curr_pose = mpSLAM->TrackMonocular(im, tIm, vImuMeas); 
+            curr_pose = mpSLAM->TrackMonocular(im, tIm); // Without IMU measurements
 
             // For Debugging -------------------------------------------
             new_tStamp = tIm;
@@ -140,8 +140,8 @@ void DataGrabber::processData()
                 std::cout << "Time stamp difference: " << new_tStamp - old_tStamp << std::endl;
             }
             old_tStamp = new_tStamp;
-            std::cout << "Frame computed, number of imu measurements: " << vImuMeas.size() << std::endl;
-            std::cout << "Last imu time stamp: " << vImuMeas.back().t << std::endl;
+            //std::cout << "Frame computed, number of imu measurements: " << vImuMeas.size() << std::endl;
+            //std::cout << "Last imu time stamp: " << vImuMeas.back().t << std::endl;
             std::cout << "Last image time stamp: " << tIm << std::endl;
 
             //  --------------------------------------------

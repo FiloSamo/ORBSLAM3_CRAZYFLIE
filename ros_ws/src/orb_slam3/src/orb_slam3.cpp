@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
     auto odom_publ = node->create_publisher<nav_msgs::msg::Odometry>("/odometry/slam", 10);
     
     // Create SLAM system and DataGrabber //IMU_MONOCULAR
-    auto SLAM = std::make_shared<ORB_SLAM3::System>(vocab_path, config_path, ORB_SLAM3::System::IMU_MONOCULAR, showPangolin); // Create SLAM system
+    auto SLAM = std::make_shared<ORB_SLAM3::System>(vocab_path, config_path, ORB_SLAM3::System::MONOCULAR, showPangolin); // Create SLAM system
 
     // DataGrabber object to handle image processing and SLAM
     auto igb = std::make_shared<DataGrabber>(SLAM, bEqual,  odom_publ, node, "oak-d_frame");

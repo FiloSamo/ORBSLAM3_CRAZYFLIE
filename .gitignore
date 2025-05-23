@@ -2,4 +2,5 @@ build*
 install/
 log/
 venv/
+docker_ros1/
 ORBvoc.txt
