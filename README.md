@@ -5,14 +5,14 @@ ORBSLAM3_CRAZYFLIE is a project that integrates the ORB-SLAM3 Visual Inertia Odo
 ## Features
 
 - Real-time Visual Inertial Odometry using ORB-SLAM3
-- ROS (Robot Operating System) compatibility
+- ROS2 (Robot Operating System 2) compatibility
 
 ## Requirements
 
 - Crazyflie 2.x quadcopter
 - Compatible camera module
 - [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3)
-- ROS (optional, for integration)
+- ROS2 (optional, for integration)
 - Python 3.x
 - C++17 compatible compiler
 
