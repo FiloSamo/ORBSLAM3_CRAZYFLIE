@@ -161,9 +161,9 @@ A imu.yaml file will be created with the estimated parameters.
 
 After that the camchain.yaml and imu.yaml are ready, you can use the previously recorded ros bag to obtain the homogeneous transformation.
 
-    ```bash
-    rosrun kalibr_calibrate_imu_camera --bag ./calibration_bag.bag --cam ./camchain.yaml --imu ./imu.yaml --target ./param.yaml
-    ```
+```bash
+rosrun kalibr_calibrate_imu_camera --bag ./calibration_bag.bag --cam ./camchain.yaml --imu ./imu.yaml --target ./param.yaml
+```
 The result is written inside the calibration_bag-camchain-imucam.yaml.
 
 
@@ -171,15 +171,15 @@ Note: It may be necessary to perform a cast of the calibration_bag.bag becouse k
 
 To check the starting time and the finish time of the calibration_bag.bag, you can run the following command:
 
-    ```bash
-    rosbag info calibration_bag.bag 
-    ```
+```bash
+rosbag info calibration_bag.bag 
+```
 
 then you have to run the rosbag filter command adding some seconds to the starting time and removing some seconds to the end time.
 
-    ```bash
-    rosbag filter calibration_bag.bag trimmed_calibration_bag.bag "t.to_sec() > [new starting time] and t.to_sec() < [new end time]"
-    ```
+```bash
+rosbag filter calibration_bag.bag trimmed_calibration_bag.bag "t.to_sec() > [new starting time] and t.to_sec() < [new end time]"
+```
 
 After the calibration, you have to update the parameters inside the ORBSLAM3_CRAZYFLIE project.
 The parameters used by Orb_slam3 are in the camera_and_slam_settings.yaml file inside the config folder of the orb_slam3 ros2 package (~/ORBSLAM3_CRAZYFLIE/ros_ws/src/orb_slam3/config/camera_and_slam_settings.yaml). 
