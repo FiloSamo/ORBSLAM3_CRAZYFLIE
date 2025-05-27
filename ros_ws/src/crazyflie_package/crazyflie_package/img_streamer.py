@@ -23,17 +23,17 @@ class CrazyflieIMGNode(Node):
     def __init__(self):
         super().__init__('crazyflie_img_node')
 
+        self.declare_parameter("ip", "192.168.4.1")
+        self.declare_parameter("port", 5000)
+
+        ip = self.get_parameter("ip").get_parameter_value().string_value
+        port = self.get_parameter("port").get_parameter_value().integer_value
+
         # Publisher
         self.publisher_ = self.create_publisher(Image, TOPIC_IMG, 50) # Puslishing on the topic
         self.bridge = CvBridge()
 
-        parser = argparse.ArgumentParser(description='Fast AI-deck JPEG streamer')
-        parser.add_argument("-n", default="192.168.4.1", metavar="ip", help="AI-deck IP")
-        parser.add_argument("-p", type=int, default=5000, metavar="port", help="AI-deck port")
-        parser.add_argument('--save', action='store_true', help="Save streamed images")
-        args = parser.parse_args()
-
-        deck_ip, deck_port = args.n, args.p
+        deck_ip, deck_port = ip , port
         self.client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.client_socket.connect((deck_ip, deck_port))
         print(f"Connected to {deck_ip}:{deck_port}")
@@ -105,8 +105,9 @@ class CrazyflieIMGNode(Node):
         self.publisher_.publish(img_msg)
 
 
-def main(args=None):
-    rclpy.init(args=args)
+def main():
+
+    rclpy.init()
     node = CrazyflieIMGNode()
     node.read_data()
     try:

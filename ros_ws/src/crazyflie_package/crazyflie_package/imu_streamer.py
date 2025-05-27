@@ -21,8 +21,6 @@ class CrazyflieIMUNode(Node):
 
         # Publisher
         self.publisher_ = self.create_publisher(Imu, TOPIC_IMU, 10) # Puslishing on the topic
-        
-        # TODO: Define the subscribers
 
         # Init Crazyflie
         cflib.crtp.init_drivers()
