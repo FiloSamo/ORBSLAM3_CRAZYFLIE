@@ -105,10 +105,10 @@ First of all, you need to create a rosbag where you must record the /cam0/image_
 
 Then, you have to convert the rosbag from the ROS2 format to the ROS1 format. You can use the rosbags utils:
 
-    ```bash
-    pip install rosbags
-    rosbags-convert --src [ROS2 BAG FOLDER PATH] --dst [ROS1 BAG FILE (.bag)]
-    ```
+```bash
+pip install rosbags
+rosbags-convert --src [ROS2 BAG FOLDER PATH] --dst [ROS1 BAG FILE (.bag)]
+```
 
 After the recording, you need to run the Kalibr node to obtain the extrinsic parameters of the camera:
 
