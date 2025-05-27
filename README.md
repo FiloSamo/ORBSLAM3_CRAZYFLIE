@@ -62,6 +62,12 @@ ORBSLAM3_CRAZYFLIE is a project that integrates the ORB-SLAM3 Visual Inertia Odo
     colcon build
     ```
 
+## Drone setup
+
+In order to perform the Visual Inertia Odometry with the Crazyflie, you have to setup the hardware correctly. You should follow the guide provided by bitcrazy to setup the drone and the AI deck firmaware https://www.bitcraze.io/documentation/tutorials/getting-started-with-aideck/
+
+Note: When we have implemented the project, the last release (2025.02) of the firmware didn't work properly (The image flow was blocked after some time), so we used the release 2024.10.2 .
+
 ## Usage
 
 After the installation procedure, you can perform a real time VIO with the crazyflie by following this steps:
@@ -84,21 +90,35 @@ After the installation procedure, you can perform a real time VIO with the crazy
     ```  
 ## Calibration
 
-In order to use the VIO you need to provide the correct intrinsic parameters for the camera and for the IMU. In addition, you need to provide the homogeneous transformation between the camera and the IMU. To do that, we have used the well established Kalibr tool.
+In order to use the VIO you need to provide the correct intrinsic parameters for the camera and for the IMU. In addition, you need to provide the homogeneous transformation between the camera and the IMU. 
+
+You can perform the calibration in the way you prefer, in our case we have used the well established Kalibr tool. To use the Kalibr calibration package Ros1 melodic is necessary. We used a docker container with ros1 melodic to run the code.
 
 ### Camera calibration (suggested)
 
-First of all, you need to create a ros bag where you must record the /cam0/image_raw and /imu0 topics. As mentioned in the kalibr guide, you need to capture a video of a calibration pattern (es. aprilgrid) while moving the drone to excitate the IMU along all the axes.
+First of all, you need to create a rosbag where you must record the /cam0/image_raw and /imu0 topics. As mentioned in the kalibr guide, you need to capture a video of a calibration pattern (es. aprilgrid) while moving the drone to excitate the IMU along all the axes.
 
-Then, you have to convert the ros bag from the ROS2 format to the ROS1 format. You can use the rosbags utils:
+Then, you have to convert the rosbag from the ROS2 format to the ROS1 format. You can use the rosbags utils:
 
+    ```bash
     pip install rosbags
-
     rosbags-convert --src [ROS2 BAG FOLDER PATH] --dst [ROS1 BAG FILE (.bag)]
+    ```
 
 After the recording, you need to run the Kalibr node to obtain the extrinsic parameters of the camera:
 
+1. write a param.yaml file with the information related to the camera and the calibration target:
+    ```bash
+    target_type: 'aprilgrid'
+    tagCols: 3
+    tagRows: 4
+    tagSize: 0.05
+    tagSpacing: 0.2
+        ```
+
+    ```bash
     rosrun kalibr kalibr_calibrate_cameras ...
+    ```
 
 The parameters will be insertend in a camchain.yaml file.
 
@@ -136,22 +156,13 @@ After that the camchain.yaml and imu.yaml are ready, you can use the previously 
 
     rosrun kalibr .....
 
-## Usage
-
-1. Connect your Crazyflie and camera.
-2. Launch the SLAM node:
-    ```bash
-    ./run_orbslam3_crazyflie
-    ```
-3. (Optional) Use ROS to visualize and control the Crazyflie.
-
 ## Contributing
 
 Contributions are welcome! Please open issues or submit pull requests.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the GPLv3 License.
 
 ## Acknowledgements
 
