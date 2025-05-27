@@ -3,21 +3,22 @@ from rclpy.node import Node
 from sensor_msgs.msg import Imu
 from std_msgs.msg import Header
 
-import time
-import logging
 from cflib.crazyflie import Crazyflie
 from cflib.crazyflie.log import LogConfig
 import cflib
 
 import math
 
-URI = 'radio://0/86/2M/E7E7E7E7ED'  # Customize if needed
 TOPIC_IMU = '/imu0'
 
 class CrazyflieIMUNode(Node):
 
     def __init__(self):
         super().__init__('crazyflie_imu_node')
+
+        self.declare_parameter("URI", "radio://0/86/2M/E7E7E7E7ED")
+        URI = self.get_parameter("URI").get_parameter_value().string_value
+        self.get_logger().info(f'Using URI: {URI}')
 
         # Publisher
         self.publisher_ = self.create_publisher(Imu, TOPIC_IMU, 10) # Puslishing on the topic

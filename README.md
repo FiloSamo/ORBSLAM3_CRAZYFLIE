@@ -70,13 +70,15 @@ After the installation procedure, you can perform a real time VIO with the crazy
     ```bash
     cd ~/ORBSLAM3_CRAZYFLIE/ros_ws
     source install/local_setup.bash
-    ```    
-2. Launch the streamers for the images and the imu data:
+    ``` 
+2. Connect to the "WiFi streaming example".
+   
+3. Launch the streamers for the images and the imu data (with the correct URI):
     ```bash
-    ros2 launch crazyflie_package streaming.launch.py
+    ros2 launch crazyflie_package streaming.launch.py URI:=radio://0/86/2M/E7E7E7E7E7
     ```  
 
-3. Launch the VIO:
+4. Launch the VIO:
     ```bash
     ros2 launch orb_slam3 monocular_vio.launch.py
     ```  
