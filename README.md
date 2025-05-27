@@ -108,25 +108,27 @@ Then, you have to convert the rosbag from the ROS2 format to the ROS1 format. Yo
 After the recording, you need to run the Kalibr node to obtain the extrinsic parameters of the camera:
 
 1. write a param.yaml file with the information related to the camera and the calibration target:
-    ```bash
+
+    ```yaml
     target_type: 'aprilgrid'
     tagCols: 3
     tagRows: 4
     tagSize: 0.05
     tagSpacing: 0.2
-        ```
-
-    ```bash
-    rosrun kalibr kalibr_calibrate_cameras ...
     ```
 
-The parameters will be insertend in a camchain.yaml file.
+2. Run the Kalibr cameras calibration script:
+    ```bash
+    rosrun kalibr kalibr_calibrate_cameras --target ./param.yaml --bag ./calibration_bag.bag --models pinhole-radtan --topics /cam0/image_raw
+    ```
+
+3. The parameters will be insertend by the script in the camchain.yaml file.
 
 ### IMU noise density and random walk estimation
 
 The IMU noise density and random walk are necessary to perform a joint optimization between the recorded camera motion and the IMU's data to obtain the homogeneus transformation between the two.
 
-In order to estimate the noise density and the random walk, it is possible to use the Ros1 package allan_variance_ros. It is necessary to record a ros bag (the longer it is, better it is, suggested 3h) for the /imu0 topic with the drone that is standstill. After the recording, you need run the following commands:
+In order to estimate the noise density and the random walk, it is possible to use the Ros1 package allan_variance_ros https://github.com/ori-drs/allan_variance_ros. It is necessary to record a ros bag (the longer it is, better it is, suggested 3h) for the /imu0 topic with the drone that is standstill. After the recording, you need run the following commands:
 
 1. Reorganize the messages by timestamps.
     ```bash
@@ -138,23 +140,50 @@ In order to estimate the noise density and the random walk, it is possible to us
     mkdir bag_folder
     mv coocked_rosbag.bag ./bag_folder
     ```
-3. Create a config file.
-    ```bash
-    ----
+3. Create a config file config.yaml.
+
+    ```yaml
+    imu_topic: "/imu0"
+    imu_rate: 100
+    measure_rate: 100 # Rate to which imu data is subsampled
+    sequence_time: 10800
     ```
 
 4. Run the command for the parameters estimation:
+
     ```bash
-    rosrun ...
+    rosrun allan_variance_ros allan_variance ./bag_folder ./config.yaml
     ```
 
 A imu.yaml file will be created with the estimated parameters.
 
 ### Joint Camera and IMU calibration
 
-After that the camchain.yaml and imu.yaml are ready, you can use the previously recorded ros bag to obtain the homogeneous transformation. 
+After that the camchain.yaml and imu.yaml are ready, you can use the previously recorded ros bag to obtain the homogeneous transformation.
 
-    rosrun kalibr .....
+    ```bash
+    rosrun kalibr_calibrate_imu_camera --bag ./calibration_bag.bag --cam ./camchain.yaml --imu ./imu.yaml --target ./param.yaml
+    ```
+The result is written inside the calibration_bag-camchain-imucam.yaml.
+
+
+Note: It may be necessary to perform a cast of the calibration_bag.bag becouse kalibr has some trouble at the beginning and at the end of the rosbag. To do that you can use the following command that removes some data from the beginning and the end of the rosbag.
+
+To check the starting time and the finish time of the calibration_bag.bag, you can run the following command:
+
+    ```bash
+    rosbag info calibration_bag.bag 
+    ```
+
+then you have to run the rosbag filter command adding some seconds to the starting time and removing some seconds to the end time.
+
+    ```bash
+    rosbag filter calibration_bag.bag trimmed_calibration_bag.bag "t.to_sec() > [new starting time] and t.to_sec() < [new end time]"
+    ```
+
+After the calibration, you have to update the parameters inside the ORBSLAM3_CRAZYFLIE project.
+The parameters used by Orb_slam3 are in the camera_and_slam_settings.yaml file inside the config folder of the orb_slam3 ros2 package (~/ORBSLAM3_CRAZYFLIE/ros_ws/src/orb_slam3/config/camera_and_slam_settings.yaml). 
+
 
 ## Contributing
 
