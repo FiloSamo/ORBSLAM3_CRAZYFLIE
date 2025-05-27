@@ -55,7 +55,7 @@ class CrazyflieIMGNode(Node):
         count = 0
         time = 0
         while True:
-            self.get_logger().info("Sto eseguendo")
+            self.get_logger().info("Executing read_data loop")
             try:
                 packet_info = self.rx_bytes(4)
                 length, routing, function = struct.unpack('<HBB', packet_info)
