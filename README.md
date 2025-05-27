@@ -66,6 +66,11 @@ ORBSLAM3_CRAZYFLIE is a project that integrates the ORB-SLAM3 Visual Inertia Odo
 
 In order to perform the Visual Inertia Odometry with the Crazyflie, you have to setup the hardware correctly. You should follow the guide provided by bitcrazy to setup the drone and the AI deck firmaware https://www.bitcraze.io/documentation/tutorials/getting-started-with-aideck/
 
+After the drone setup, you **must** perform a calibration to obtain the intrinsic parameters of the camera and the imu and the homogeneus transformation between the camera frame and the imu frame. Then, you have to update the parameters inside the ORBSLAM3_CRAZYFLIE project.
+
+The parameters used by orb_slam3 are in the **camera_and_slam_settings.yaml** file inside the config folder of the orb_slam3 ros2 package (~/ORBSLAM3_CRAZYFLIE/ros_ws/src/orb_slam3/config/camera_and_slam_settings.yaml). 
+
+
 Note: When we have implemented the project, the last release (2025.02) of the firmware didn't work properly (The image flow was blocked after some time), so we used the release 2024.10.2 .
 
 ## Usage
@@ -83,18 +88,18 @@ After the installation procedure, you can perform a real time VIO with the crazy
     ```bash
     ros2 launch crazyflie_package streaming.launch.py URI:=radio://0/86/2M/E7E7E7E7E7
     ```  
-
+    
 4. Launch the VIO:
     ```bash
     ros2 launch orb_slam3 monocular_vio.launch.py
     ```  
-## Calibration
+## Calibration (suggested procedure)
 
 In order to use the VIO you need to provide the correct intrinsic parameters for the camera and for the IMU. In addition, you need to provide the homogeneous transformation between the camera and the IMU. 
 
 You can perform the calibration in the way you prefer, in our case we have used the well established Kalibr tool. To use the Kalibr calibration package Ros1 melodic is necessary. We used a docker container with ros1 melodic to run the code.
 
-### Camera calibration (suggested)
+#### Camera calibration
 
 First of all, you need to create a rosbag where you must record the /cam0/image_raw and /imu0 topics. As mentioned in the kalibr guide, you need to capture a video of a calibration pattern (es. aprilgrid) while moving the drone to excitate the IMU along all the axes.
 
@@ -124,7 +129,7 @@ After the recording, you need to run the Kalibr node to obtain the extrinsic par
 
 3. The parameters will be insertend by the script in the camchain.yaml file.
 
-### IMU noise density and random walk estimation
+#### IMU noise density and random walk estimation
 
 The IMU noise density and random walk are necessary to perform a joint optimization between the recorded camera motion and the IMU's data to obtain the homogeneus transformation between the two.
 
@@ -157,7 +162,7 @@ In order to estimate the noise density and the random walk, it is possible to us
 
 A imu.yaml file will be created with the estimated parameters.
 
-### Joint Camera and IMU calibration
+#### Joint Camera and IMU calibration
 
 After that the camchain.yaml and imu.yaml are ready, you can use the previously recorded ros bag to obtain the homogeneous transformation.
 
