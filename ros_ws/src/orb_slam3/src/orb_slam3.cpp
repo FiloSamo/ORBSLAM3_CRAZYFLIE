@@ -33,11 +33,11 @@ int main(int argc, char *argv[])
     std::string vocab_path = node->get_parameter("vocab_path").as_string();
 
     bool showPangolin = true ; // true If you want to spone the Pangolin window with pose estimation drawed
-    bool bEqual = false; // true If you want to use CLAHE for image equalization
+    bool bEqual = true; // true If you want to use CLAHE for image equalization
 
     // Publish odom message from SLAM
-    auto odom_publ = node->create_publisher<nav_msgs::msg::Odometry>("/odometry/slam", 10);
-    
+    auto odom_publ = node->create_publisher<nav_msgs::msg::Odometry>("orb_slam3/odom", 10);
+
     // Create SLAM system and DataGrabber //IMU_MONOCULAR
     auto SLAM = std::make_shared<ORB_SLAM3::System>(vocab_path, config_path, ORB_SLAM3::System::MONOCULAR, showPangolin); // Create SLAM system
 
@@ -51,8 +51,8 @@ int main(int argc, char *argv[])
     std::string imuTopicName = "/imu0" ;
 
     // Subscribe to the camera image topic
-    auto sub_img0 = node->create_subscription<sensor_msgs::msg::Image>(
-        imgTopicName, 5, [igb](const sensor_msgs::msg::Image::SharedPtr msg) { igb->grabImage(msg); });
+    auto sub_img0 = node->create_subscription<custom_msgs::msg::ImageAndInt>(
+        imgTopicName, 5, [igb](const custom_msgs::msg::ImageAndInt::SharedPtr msg) { igb->grabImage(msg); });
 
     // Subscribe to the camera image topic
     auto sub_imu0 = node->create_subscription<sensor_msgs::msg::Imu>(

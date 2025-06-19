@@ -22,7 +22,7 @@ DataGrabber::DataGrabber(std::shared_ptr<ORB_SLAM3::System> pSLAM, bool bClahe,
         odom_msg_.pose.pose.orientation.w = 0.0;
     }
 
-void DataGrabber::grabImage(const sensor_msgs::msg::Image::SharedPtr img_msg)
+void DataGrabber::grabImage(const custom_msgs::msg::ImageAndInt::SharedPtr img_msg)
 {
     std::unique_lock<std::mutex> lock(mImgMutex);
 
@@ -35,13 +35,14 @@ void DataGrabber::grabImage(const sensor_msgs::msg::Image::SharedPtr img_msg)
     mImgReady.notify_all();  // Notify the processing thread
 }
 
-cv::Mat DataGrabber::getImage(const sensor_msgs::msg::Image::SharedPtr &img_msg)
+cv::Mat DataGrabber::getImage(const custom_msgs::msg::ImageAndInt::SharedPtr &img_msg)
 {
     // Convert the ROS image message to a cv::Mat object
     cv_bridge::CvImageConstPtr cv_ptr;
     try
     {
-        cv_ptr = cv_bridge::toCvShare(img_msg, sensor_msgs::image_encodings::MONO8);
+        auto image_ptr = std::make_shared<sensor_msgs::msg::Image>(img_msg->image);
+        cv_ptr = cv_bridge::toCvShare(image_ptr, sensor_msgs::image_encodings::MONO8);
     }
     catch (cv_bridge::Exception& e)
     {
@@ -80,7 +81,7 @@ void DataGrabber::processData()
     {
         cv::Mat im;
         double tIm = 0;
-        
+        int timestamp = 0;
         // Check if there is any image in the buffer
         {
             std::unique_lock<std::mutex> lk(mImgMutex);
@@ -91,16 +92,17 @@ void DataGrabber::processData()
 
         {
             std::lock_guard<std::mutex> lock(mImgMutex);
+            timestamp = img0Buf.front()->integer;
             im = getImage(img0Buf.front());
-            tIm = img0Buf.front()->header.stamp.sec + img0Buf.front()->header.stamp.nanosec * 1e-9;
+            tIm = img0Buf.front()->image.header.stamp.sec + img0Buf.front()->image.header.stamp.nanosec * 1e-9;
         }
 
-        // {
-        //     std::unique_lock<std::mutex> lk(mImuMutex);
-        //     while(imu0Buf.empty() || tIm > imu0Buf.back().t){
-        //         mImuReady.wait(lk);
-        //     }
-        // }
+        {
+            std::unique_lock<std::mutex> lk(mImuMutex);
+            while(imu0Buf.empty() || tIm > imu0Buf.back().t){
+                mImuReady.wait(lk);
+            }
+        }
 
         {
             std::lock_guard<std::mutex> lock(mImgMutex);
@@ -121,28 +123,26 @@ void DataGrabber::processData()
         std::vector<ORB_SLAM3::IMU::Point> vImuMeas;
         vImuMeas.clear();
 
-        // // Check if there are any IMU measurements to process
-        // {
-        //     std::lock_guard<std::mutex> lock(mImuMutex);
-        //     while(imu0Buf.front().t <= tIm && !imu0Buf.empty()) {
-        //         vImuMeas.push_back(imu0Buf.front());
-        //         imu0Buf.pop();
-        //     }
-        // }
+        // Check if there are any IMU measurements to process
+        {
+            std::lock_guard<std::mutex> lock(mImuMutex);
+            while(imu0Buf.front().t <= tIm && !imu0Buf.empty()) {
+                vImuMeas.push_back(imu0Buf.front());
+                imu0Buf.pop();
+            }
+        }
                         
         try {
-            //curr_pose = mpSLAM->TrackMonocular(im, tIm, vImuMeas); 
-            curr_pose = mpSLAM->TrackMonocular(im, tIm); // Without IMU measurements
+            curr_pose = mpSLAM->TrackMonocular(im, tIm, vImuMeas); 
+            //curr_pose = mpSLAM->TrackMonocular(im, tIm); // Without IMU measurements
 
             // For Debugging -------------------------------------------
             new_tStamp = tIm;
-            if (new_tStamp - old_tStamp > 0) {
-                std::cout << "Time stamp difference: " << new_tStamp - old_tStamp << std::endl;
-            }
+            // if (new_tStamp - old_tStamp > 0) {
+            //     std::cout << "Time stamp difference: " << new_tStamp - old_tStamp << std::endl;
+            // }
             old_tStamp = new_tStamp;
-            //std::cout << "Frame computed, number of imu measurements: " << vImuMeas.size() << std::endl;
-            //std::cout << "Last imu time stamp: " << vImuMeas.back().t << std::endl;
-            std::cout << "Last image time stamp: " << tIm << std::endl;
+            std::cout << "Frame computed, number of imu measurements: " << vImuMeas.size() << std::endl;
 
             //  --------------------------------------------
         } catch (const std::exception &e) {
@@ -150,15 +150,17 @@ void DataGrabber::processData()
         }
         
         //publish pose
-        publishSE3fToOdom(curr_pose);           
+        publishSE3fToOdom(curr_pose, timestamp);           
         
     }
 }
 
-void DataGrabber::publishSE3fToOdom(const Sophus::SE3f& se3) {
+void DataGrabber::publishSE3fToOdom(const Sophus::SE3f& se3, int timestamp) {
     
     // Extract the translation (position)
     Eigen::Vector3f translation = se3.translation();
+    odom_msg_.header.stamp.sec = timestamp;
+
     odom_msg_.pose.pose.position.x = translation.x();
     odom_msg_.pose.pose.position.y = translation.y();
     odom_msg_.pose.pose.position.z = translation.z();

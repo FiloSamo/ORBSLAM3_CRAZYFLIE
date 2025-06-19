@@ -12,6 +12,7 @@ find_package(rclpy REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
+find_package(custom_msgs REQUIRED)
 
 find_package(Sophus REQUIRED)
 find_package(Pangolin REQUIRED)
@@ -61,6 +62,7 @@ ament_target_dependencies(orb_slam3
   sensor_msgs
   cv_bridge
   nav_msgs
+  custom_msgs
 )
 
 install(TARGETS

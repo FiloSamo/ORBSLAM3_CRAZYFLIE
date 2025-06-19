@@ -32,6 +32,7 @@ class CrazyflieIMUNode(Node):
         self.cf.connection_failed.add_callback(self._on_connection_failed)
         self.cf.connection_lost.add_callback(self._on_connection_lost)
         self.cf.disconnected.add_callback(self._on_disconnected)
+        self.cf.console.receivedChar.add_callback(self.log_console)
 
         self.get_logger().info('Connecting to Crazyflie...')
         self.cf.open_link(URI)
@@ -90,6 +91,11 @@ class CrazyflieIMUNode(Node):
 
     def _on_disconnected(self, link_uri):
         self.get_logger().info('Disconnected.')
+
+        
+    def log_console(self, text):
+        self.get_logger().info(text)
+
 
 def main(args=None):
     rclpy.init(args=args)
