@@ -1,4 +1,6 @@
 build*
+BUILD*
+wifi-img-streamer/lib/
 install/
 log/
 venv/
