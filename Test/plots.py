@@ -51,7 +51,7 @@ plt.plot(positions[:, 0], positions[:, 1], positions[:, 2], 'o-')
 plt.show()
 
 plt.figure()
-plt.plot(delays, label='Delay')
+plt.plot(delays[1:], label='Delay')
 plt.xlabel('Sample Index')
 plt.ylabel('Delay (ms)')
 plt.title('Delays in Position Data')
@@ -68,14 +68,39 @@ print("FPS values:", fps)
 plt.figure()
 plt.plot(fps, label='FPS')
 fps_mean = np.mean(fps)
-#fps_mean = int(fps_mean)
-plt.axhline(y=fps_mean, color='r', linestyle='--', label='Mean FPS')
+fps_mean = int(fps_mean)
+plt.axhline(y=fps_mean, color='orange', linestyle='--', label='Mean FPS')
+
 plt.xlabel('Sample Index')
 plt.ylabel('FPS')
 plt.title('Frames Per Second (FPS)')
 plt.legend()
 plt.grid(True)
 plt.show()
+
+window_size = 50  # 10 dati nell'intorno (5 prima e 5 dopo)
+half_window = window_size // 2
+
+fps_weighted_mean = []
+for i in range(len(fps)):
+    start = i
+    end = window_size + i
+    if end > len(fps):
+        end = len(fps)
+    window = fps[start:end]
+    weighted_mean = np.mean(window)
+    fps_weighted_mean.append(weighted_mean)
+
+plt.figure()
+plt.plot(fps, label='FPS')
+plt.plot(fps_weighted_mean, label=f'Weighted Mean FPS (window={window_size})', color='orange')
+plt.xlabel('Sample Index')
+plt.ylabel('FPS')
+plt.title('Frames Per Second (FPS)')
+plt.legend()
+plt.grid(True)
+plt.show()
+
 
 # Salva su file se vuoi
 # np.save("positions.npy", positions)

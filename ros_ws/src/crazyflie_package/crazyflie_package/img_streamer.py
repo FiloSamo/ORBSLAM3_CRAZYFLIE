@@ -32,11 +32,14 @@ class CrazyflieIMGNode(Node):
 
         self.declare_parameter("ip", "192.168.4.1")
         self.declare_parameter("port", 5000)
+        #self.declare_parameter("file_log", False)
 
         ip = self.get_parameter("ip").get_parameter_value().string_value
         port = self.get_parameter("port").get_parameter_value().integer_value
+        #self.LOG_ACTIVE = self.get_parameter("file_log").get_parameter_value().bool_value
 
-        self.count = 0
+        self.img_count = 0
+        self.pose_count = 0
         self.time = 0
 
         self.callback_group = ReentrantCallbackGroup()
@@ -104,6 +107,10 @@ class CrazyflieIMGNode(Node):
 
     def odom_callback(self, msg):
         # Extract position and orientation from the Odometry message
+        if self.pose_count == 0:
+            self.img_count = 1
+        self.pose_count += 1
+
         position = msg.pose.pose.position
         orientation = msg.pose.pose.orientation
         x = float(position.x)
@@ -147,15 +154,15 @@ class CrazyflieIMGNode(Node):
             #frame_queue.put((img_stream, fmt), timeout=1)
             # Publish the image  
             self.img_publish(img_stream, int(timestamp), fmt)  
-            self.count += 1
+            self.img_count += 1
             second , nsecond  = self.get_clock().now().seconds_nanoseconds()
             n_time = second + nsecond*1e-9
             fps = int(1 / (n_time - self.time) if n_time - self.time != 0 else 0)
-            self.get_logger().info('Image number: %d \t timestamp: %d \t fps: %d' % (self.count, timestamp, fps))
+            self.get_logger().info('Image number: %d timestamp: %d fps: %d pose number: %d' % (self.img_count, timestamp, fps, self.pose_count))
             # Debug FPS
             with open(FPS_FILE, 'a') as f:
                 f.write(f"{fps}\n")
-                
+
             self.time = n_time
         except Exception as e:
             self.get_logger().error(f"[Receiver Error] {e}")

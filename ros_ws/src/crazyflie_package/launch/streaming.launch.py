@@ -8,7 +8,7 @@ from launch.substitutions import LaunchConfiguration
 def generate_launch_description():
 
     uri = LaunchConfiguration("URI", default='radio://0/86/2M/E7E7E7E7ED')
-
+    log_active = LaunchConfiguration("LOG_ACTIVE", default=False)
     
     imu_streamer = Node(
             package='crazyflie_package',
