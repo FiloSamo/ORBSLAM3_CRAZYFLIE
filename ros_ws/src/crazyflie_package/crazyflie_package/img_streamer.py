@@ -1,3 +1,15 @@
+#     __________  _____ ____     __  __      _ __        
+#    / ____/ __ \/ ___// __ \   / / / /___  (_) /_  ____ 
+#   / /   / /_/ /\__ \/ /_/ /  / / / / __ \/ / __ \/ __ \
+#  / /___/ ____/___/ / ____/  / /_/ / / / / / /_/ / /_/ /
+#  \____/_/    /____/_/       \____/_/ /_/_/_.___/\____/ 
+                                                       
+                                                               
+#  Authors: Filippo Samorì, Filippo Ugolini and Daniele Crivellari
+#  20/06/2025
+#  University of Bologna, Italy
+#  License: BSD-3-Clause
+
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Image

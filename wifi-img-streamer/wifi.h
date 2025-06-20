@@ -11,7 +11,7 @@ typedef enum {
   WIFI_CTRL_STATUS_WIFI_CONNECTED   = 0x31,
   WIFI_CTRL_STATUS_CLIENT_CONNECTED = 0x32,
 
-  WIFI_POSITION_SENDED             = 0x40, // FILIPPO: Position data sent
+  WIFI_POSITION_SENDED             = 0x40, // Position data sent
 } __attribute__((packed)) WiFiCTRLType;
 
 typedef struct {

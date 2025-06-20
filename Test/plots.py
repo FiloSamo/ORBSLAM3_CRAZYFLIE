@@ -1,3 +1,20 @@
+#     __________  _____ ____     __  __      _ __        
+#    / ____/ __ \/ ___// __ \   / / / /___  (_) /_  ____ 
+#   / /   / /_/ /\__ \/ /_/ /  / / / / __ \/ / __ \/ __ \
+#  / /___/ ____/___/ / ____/  / /_/ / / / / / /_/ / /_/ /
+#  \____/_/    /____/_/       \____/_/ /_/_/_.___/\____/ 
+                                                       
+                                                               
+#  Authors: Filippo Samorì, Filippo Ugolini and Daniele Crivellari
+#  20/06/2025
+#  University of Bologna, Italy
+#  License: BSD-3-Clause
+
+#  This script processes a log file from a Crazyflie drone, extracting position data and delays,
+#  and visualizes the trajectory in 3D along with delays and frames per second (FPS) data.
+#  It also computes a weighted mean of FPS values over a specified window size.
+
+
 import re
 import numpy as np
 import matplotlib.pyplot as plt

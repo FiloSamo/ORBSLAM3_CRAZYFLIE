@@ -1,3 +1,14 @@
+#     __________  _____ ____     __  __      _ __        
+#    / ____/ __ \/ ___// __ \   / / / /___  (_) /_  ____ 
+#   / /   / /_/ /\__ \/ /_/ /  / / / / __ \/ / __ \/ __ \
+#  / /___/ ____/___/ / ____/  / /_/ / / / / / /_/ / /_/ /
+#  \____/_/    /____/_/       \____/_/ /_/_/_.___/\____/ 
+                                                       
+#  Authors: Filippo Samorì, Filippo Ugolini, and Daniele Crivellari
+#  20/06/2025
+#  University of Bologna, Italy
+#  License: BSD-3-Clause
+
 from launch import LaunchDescription
 from ament_index_python.packages import get_package_share_directory
 from launch_ros.actions import Node

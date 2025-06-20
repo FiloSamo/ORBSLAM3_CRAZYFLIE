@@ -22,6 +22,22 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  *
  * WiFi image streamer example
+ *
+ *    __________  _____ ____     __  __      _ __        
+ *   / ____/ __ \/ ___// __ \   / / / /___  (_) /_  ____ 
+ *  / /   / /_/ /\__ \/ /_/ /  / / / / __ \/ / __ \/ __ \
+ * / /___/ ____/___/ / ____/  / /_/ / / / / / /_/ / /_/ /
+ * \____/_/    /____/_/       \____/_/ /_/_/_.___/\____/ 
+ *                                                       
+ *                                                               
+ * Modified by Filippo Samorì, Filippo Ugolini and Daniele Crivellari
+ * 20/06/2025
+ * University of Bologna, Italy
+ * 
+ * The modifications include the addition of a custom packet type
+ * to send position data from a ROS2 node running in a pc to the GAP8.
+ * Moreover, a timestamp is sent from the GAP8 to the ROS2 node
+ * to measure the delay between the two systems.
  */
 #include "pmsis.h"
 
@@ -140,7 +156,7 @@ void rx_from_wifi(void *parameters)
 
     switch (wifiCtrl->cmd)
     {
-      // FILIPPO
+      // CUSTOM CODE
       case WIFI_POSITION_SENDED:
       	cpxPrintToConsole(LOG_TO_CRTP, "");
       	float position[6];
@@ -156,7 +172,7 @@ void rx_from_wifi(void *parameters)
 	cpxPrintToConsole(LOG_TO_CRTP, "Position: %0.3f %0.3f %0.3f %0.3f %0.3f %0.3f delay: %d\n",
                           position[0], position[1], position[2],
                           position[3], position[4], position[5], delay);
-      // FILIPPO END
+      // CUSTOM CODE END
 
       default:
         break;
@@ -180,7 +196,7 @@ typedef struct
 } __attribute__((packed)) img_header_t;
 
 
-// FILIPPO 
+// CUSTOM CODE 
 
 typedef struct
 {
@@ -198,7 +214,7 @@ void sendTimePacket(uint32_t timestamp) {
     cpxSendPacketBlocking(&timePacket);
 }
 
-// FILIPPO END
+// CUSTOM CODE END
 
 static jpeg_encoder_t jpeg_encoder;
 
@@ -384,9 +400,9 @@ void camera_task(void *parameters)
         // Send image
         sendBufferViaCPX(&txp, imgBuff, imgSize);
 
-        // FILIPPO
+        // CUSTOM CODE
         sendTimePacket(start);
-        // FILIPPO END
+        // CUSTOM CODE END
 
         transferTime = xTaskGetTickCount() - start;
       }
