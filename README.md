@@ -52,12 +52,14 @@ ORBSLAM3_CRAZYFLIE is a project that integrates the ORB-SLAM3 Visual Inertia Odo
     set(PANGOLIN_LIB_DIR "/~/ORBSLAM3_CRAZYFLIE/Pangolin/build/src/libpangolin.so")  # Adjust this to your Pangolin lib path
     ```
 
-7. Install the dependecies for the execution of the project:
+7. Inside the /~/ORBSLAM3_CRAZYFLIE/ros_ws/src/orb_slam3 package, you need to add the ORBvoc.txt file to the config folder. You can find that file in the ORB_SLAM3/Vocabulary folder.
+
+8. Install the dependecies for the execution of the project:
     ```bash
     cd ~/ORBSLAM3_CRAZYFLIE/ros_ws
     rosdep install --from-paths src
     ```
-8. Build the ros2 workspace:
+9. Build the ros2 workspace:
     ```bash
     colcon build
     ```
@@ -93,6 +95,25 @@ After the installation procedure, you can perform a real time VIO with the crazy
     ```bash
     ros2 launch orb_slam3 monocular_vio.launch.py
     ```  
+
+### Optional
+
+You can pass optional parameters to the launch file:
+
+- `URI`: Radio address of the Crazyflie.
+- `IP`: IP address for WiFi communication.
+- `PORT`: Port number for WiFi communication.
+- `LOG_ACTIVE`: Set to `True` to enable logging of the Crazyflie console output to a text file.
+
+When `LOG_ACTIVE` is enabled, a file named `console_crazyflie.txt` will be created in the directory where you run the command.
+
+Example usage:
+```bash
+ros2 launch crazyflie_package streaming.launch.py URI:=radio://0/86/2M/E7E7E7E7ED IP:=192.168.4.1 PORT:=5000 LOG_ACTIVE:=False
+```
+The default values are those shown in the example command.
+
+
 ## Calibration (suggested procedure)
 
 In order to use the VIO you need to provide the correct intrinsic parameters for the camera and for the IMU. In addition, you need to provide the homogeneous transformation between the camera and the IMU. 

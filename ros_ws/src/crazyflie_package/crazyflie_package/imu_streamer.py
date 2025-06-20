@@ -18,14 +18,19 @@ class CrazyflieIMUNode(Node):
     def __init__(self):
         super().__init__('crazyflie_imu_node')
 
+        # Declare parameters
         self.declare_parameter("URI", "radio://0/86/2M/E7E7E7E7ED")
         URI = self.get_parameter("URI").get_parameter_value().string_value
+
+        self.declare_parameter("log_active", False)
+        self.LOG_ACTIVE = self.get_parameter("log_active").get_parameter_value().bool_value
+
         self.get_logger().info(f'Using URI: {URI}')
 
-        # Publisher
+        # Publisher for IMU data
         self.publisher_ = self.create_publisher(Imu, TOPIC_IMU, 10) # Puslishing on the topic
 
-        # Init Crazyflie
+        # Init Crazyflie 
         cflib.crtp.init_drivers()
         self.cf = Crazyflie()
 
@@ -39,8 +44,10 @@ class CrazyflieIMUNode(Node):
         self.get_logger().info('Connecting to Crazyflie...')
         self.cf.open_link(URI)
         # Open a file and write nothing to it
-        with open(LOG_FILE, 'w') as f:
-            f.write('')
+        if self.LOG_ACTIVE:
+            # Clear the log file if it exists, or create a new one
+            with open(LOG_FILE, 'w') as f:
+                f.write('')
 
             
 
@@ -50,6 +57,7 @@ class CrazyflieIMUNode(Node):
         '''
         self.get_logger().info('Connected to Crazyflie, starting IMU logging...')
 
+        # Create a log configuration for the IMU data
         log_conf = LogConfig(name='IMU', period_in_ms=10)
         log_conf.add_variable('acc.x', 'float')
         log_conf.add_variable('acc.y', 'float')
@@ -69,6 +77,7 @@ class CrazyflieIMUNode(Node):
         '''
             Callback for receiving log data. Every time a new log entry is received, a new data is published in the topic.
         '''
+        # Create a new Imu message
         imu_msg = Imu()
 
         # self.get_logger().info('Data received: {} '.format(data))
@@ -85,8 +94,6 @@ class CrazyflieIMUNode(Node):
         imu_msg.angular_velocity.x = math.radians(data['gyro.x'])
         imu_msg.angular_velocity.y = math.radians(data['gyro.y'])
         imu_msg.angular_velocity.z = math.radians(data['gyro.z'])
-
-        # imu_msg.orientation_covariance =
 
         self.publisher_.publish(imu_msg)
 
@@ -105,10 +112,14 @@ class CrazyflieIMUNode(Node):
             Callback for receiving console messages from the Crazyflie.
             It logs the message to the console and appends it to a file.
         '''
+        # Log the message to the console
         self.get_logger().info(text)
-        with open(LOG_FILE, 'a') as f:
-            f.write(text + '\n')
-            f.flush()
+        # If logging is active, append the message to the log file
+        if self.LOG_ACTIVE:
+            # Append the message to the log file
+            with open(LOG_FILE, 'a') as f:
+                f.write(text + '\n')
+                f.flush()
 
 
 def main(args=None):

@@ -15,15 +15,15 @@ i = 0
 while i < len(lines):
     line = lines[i]
     if "Position" in line:
-        # Unisci la riga corrente e la successiva (i dati sono spezzati su due righe)
+        # Merge the current line and the next one (data is split across two lines)
         data_line = line
-        # Cerca le righe successive che iniziano con ":" (posizione spezzata)
+        # Look for following lines starting with ":" (split position data)
         while i + 1 < len(lines) and lines[i + 1].strip().startswith(":"):
             data_line += lines[i + 1]
             data_line += lines[i + 2]
             i += 1
             data_line = data_line.replace('\n', '')
-        # Estrai i numeri e il delay
+        # Extract numbers and delay
         match = re.search(r":\s*([-\d\.\s]+)delay:\s*(-?\d+)", data_line)
         if match:
             pos_str = match.group(1)
@@ -39,7 +39,7 @@ delays = np.array(delays)
 print("positions shape:", positions.shape)
 print("delays shape:", delays.shape)
 
-# Plotting the positions
+# Plotting the positions in 3D
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 ax.set_xlabel('X Position')
@@ -50,6 +50,7 @@ ax.grid(True)
 plt.plot(positions[:, 0], positions[:, 1], positions[:, 2], 'o-')
 plt.show()
 
+# Plotting the delays
 plt.figure()
 plt.plot(delays[1:], label='Delay')
 plt.xlabel('Sample Index')
@@ -59,12 +60,13 @@ plt.legend()
 plt.grid(True)
 plt.show()
 
+# Read FPS values from file
 with open(fps_file, "r") as f:
     lines = f.readlines()
 
 fps = [int(line.strip()) for line in lines if line.strip().isdigit()]
-print("FPS values:", fps)
 
+# Plot FPS values and mean
 plt.figure()
 plt.plot(fps, label='FPS')
 fps_mean = np.mean(fps)
@@ -78,7 +80,7 @@ plt.legend()
 plt.grid(True)
 plt.show()
 
-window_size = 50  # 10 dati nell'intorno (5 prima e 5 dopo)
+window_size = 50  # Number of data points in the window
 half_window = window_size // 2
 
 fps_weighted_mean = []
@@ -91,6 +93,7 @@ for i in range(len(fps)):
     weighted_mean = np.mean(window)
     fps_weighted_mean.append(weighted_mean)
 
+# Plot FPS and weighted mean FPS
 plt.figure()
 plt.plot(fps, label='FPS')
 plt.plot(fps_weighted_mean, label=f'Weighted Mean FPS (window={window_size})', color='orange')
@@ -100,8 +103,3 @@ plt.title('Frames Per Second (FPS)')
 plt.legend()
 plt.grid(True)
 plt.show()
-
-
-# Salva su file se vuoi
-# np.save("positions.npy", positions)
-# np.save("delays.npy", delays)

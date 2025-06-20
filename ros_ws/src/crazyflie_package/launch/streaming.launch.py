@@ -8,19 +8,24 @@ from launch.substitutions import LaunchConfiguration
 def generate_launch_description():
 
     uri = LaunchConfiguration("URI", default='radio://0/86/2M/E7E7E7E7ED')
-    log_active = LaunchConfiguration("LOG_ACTIVE", default=False)
+
+    ip = LaunchConfiguration("IP", default='192.168.4.1')
+    port = LaunchConfiguration("PORT", default=5000)
+
+    log_active = LaunchConfiguration("LOG_ACTIVE", default=False) # Default to False, can be set to True to enable file logging
     
     imu_streamer = Node(
             package='crazyflie_package',
             executable='imu_streamer',
             output='screen',  # Optional: Print output to screen
-            parameters=[{'URI': uri}]
+            parameters=[{'URI': uri, 'log_active': log_active}],
         )
     
     img_streamer = Node(
             package='crazyflie_package',
             executable='img_streamer',
             output='screen',  # Optional: Print output to screen
+            parameters=[{'ip': ip, 'port': port}],
         )
 
     return LaunchDescription([

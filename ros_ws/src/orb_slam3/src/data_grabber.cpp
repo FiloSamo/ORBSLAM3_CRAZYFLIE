@@ -1,7 +1,9 @@
 #include "orb_slam3/data_grabber.hpp"
 
+// Default constructor
 DataGrabber::DataGrabber() : mbClahe(false) {}
 
+// Constructor with parameters for SLAM system, CLAHE, ROS publisher, node, and camera frame name
 DataGrabber::DataGrabber(std::shared_ptr<ORB_SLAM3::System> pSLAM, bool bClahe, 
     rclcpp::Publisher<nav_msgs::msg::Odometry>::SharedPtr rospub,
     std::shared_ptr<rclcpp::Node> ros_node, const std::string camera_frame_name)
@@ -9,19 +11,23 @@ DataGrabber::DataGrabber(std::shared_ptr<ORB_SLAM3::System> pSLAM, bool bClahe,
     odom_pub_(rospub), rosNode_(ros_node),
     tf_frame(camera_frame_name) 
     {
+        // Initialize odometry message frame IDs
         odom_msg_.header.frame_id = "odom";
         odom_msg_.child_frame_id = tf_frame;
 
+        // Initialize odometry message position to zero
         odom_msg_.pose.pose.position.x = 0.0;
         odom_msg_.pose.pose.position.y = 0.0;
         odom_msg_.pose.pose.position.z = 0.0;
         
+        // Initialize odometry message orientation to zero quaternion
         odom_msg_.pose.pose.orientation.x = 0.0;
         odom_msg_.pose.pose.orientation.y = 0.0;
         odom_msg_.pose.pose.orientation.z = 0.0;
         odom_msg_.pose.pose.orientation.w = 0.0;
     }
 
+// Callback to grab an image message and push it to the buffer
 void DataGrabber::grabImage(const custom_msgs::msg::ImageAndInt::SharedPtr img_msg)
 {
     std::unique_lock<std::mutex> lock(mImgMutex);
@@ -35,9 +41,9 @@ void DataGrabber::grabImage(const custom_msgs::msg::ImageAndInt::SharedPtr img_m
     mImgReady.notify_all();  // Notify the processing thread
 }
 
+// Convert a ROS image message to a cv::Mat object
 cv::Mat DataGrabber::getImage(const custom_msgs::msg::ImageAndInt::SharedPtr &img_msg)
 {
-    // Convert the ROS image message to a cv::Mat object
     cv_bridge::CvImageConstPtr cv_ptr;
     try
     {
@@ -52,8 +58,10 @@ cv::Mat DataGrabber::getImage(const custom_msgs::msg::ImageAndInt::SharedPtr &im
     return cv_ptr->image.clone();
 }
 
+// Callback to grab an IMU message and push it to the buffer
 void DataGrabber::getImu(const sensor_msgs::msg::Imu::SharedPtr imu_msg){
     
+    // Extract timestamp and IMU data
     double timestamp = imu_msg->header.stamp.sec + imu_msg->header.stamp.nanosec * 1e-9;
     float acc_x = imu_msg->linear_acceleration.x;
     float acc_y = imu_msg->linear_acceleration.y;
@@ -62,6 +70,7 @@ void DataGrabber::getImu(const sensor_msgs::msg::Imu::SharedPtr imu_msg){
     float gyro_y = imu_msg->angular_velocity.y;
     float gyro_z = imu_msg->angular_velocity.z;
 
+    // Create IMU point and push to buffer
     ORB_SLAM3::IMU::Point p(acc_x, acc_y, acc_z, gyro_x, gyro_y, gyro_z, timestamp);
     std::unique_lock<std::mutex> lock(mImuMutex);
     imu0Buf.push(p);
@@ -70,6 +79,7 @@ void DataGrabber::getImu(const sensor_msgs::msg::Imu::SharedPtr imu_msg){
     mImuReady.notify_all();
 }
 
+// Main processing loop for images and IMU data
 void DataGrabber::processData()
 {
     // for debugging
@@ -82,7 +92,7 @@ void DataGrabber::processData()
         cv::Mat im;
         double tIm = 0;
         int timestamp = 0;
-        // Check if there is any image in the buffer
+        // Wait for an image in the buffer
         {
             std::unique_lock<std::mutex> lk(mImgMutex);
             while(img0Buf.empty()){
@@ -90,6 +100,7 @@ void DataGrabber::processData()
             }
         }   
 
+        // Get the latest image and its timestamp
         {
             std::lock_guard<std::mutex> lock(mImgMutex);
             timestamp = img0Buf.front()->integer;
@@ -97,6 +108,7 @@ void DataGrabber::processData()
             tIm = img0Buf.front()->image.header.stamp.sec + img0Buf.front()->image.header.stamp.nanosec * 1e-9;
         }
 
+        // Wait for IMU data to be available and synchronized
         {
             std::unique_lock<std::mutex> lk(mImuMutex);
             while(imu0Buf.empty() || tIm > imu0Buf.back().t){
@@ -104,6 +116,7 @@ void DataGrabber::processData()
             }
         }
 
+        // Remove the processed image from the buffer
         {
             std::lock_guard<std::mutex> lock(mImgMutex);
             img0Buf.pop();
@@ -113,6 +126,7 @@ void DataGrabber::processData()
             continue;
         }
 
+        // Optionally apply CLAHE to the image
         if (mbClahe) {
             mClahe->apply(im, im);  // Apply CLAHE if enabled
         }
@@ -123,7 +137,7 @@ void DataGrabber::processData()
         std::vector<ORB_SLAM3::IMU::Point> vImuMeas;
         vImuMeas.clear();
 
-        // Check if there are any IMU measurements to process
+        // Collect all IMU measurements up to the image timestamp
         {
             std::lock_guard<std::mutex> lock(mImuMutex);
             while(imu0Buf.front().t <= tIm && !imu0Buf.empty()) {
@@ -133,6 +147,7 @@ void DataGrabber::processData()
         }
                         
         try {
+            // Track the current frame with image and IMU data
             curr_pose = mpSLAM->TrackMonocular(im, tIm, vImuMeas); 
             //curr_pose = mpSLAM->TrackMonocular(im, tIm); // Without IMU measurements
 
@@ -149,12 +164,13 @@ void DataGrabber::processData()
             std::cerr << "Exception caught: " << e.what() << std::endl;
         }
         
-        //publish pose
+        // Publish the pose as an odometry message
         publishSE3fToOdom(curr_pose, timestamp);           
         
     }
 }
 
+// Publish a Sophus::SE3f pose as a nav_msgs::msg::Odometry message
 void DataGrabber::publishSE3fToOdom(const Sophus::SE3f& se3, int timestamp) {
     
     // Extract the translation (position)
@@ -174,6 +190,6 @@ void DataGrabber::publishSE3fToOdom(const Sophus::SE3f& se3, int timestamp) {
     odom_msg_.pose.pose.orientation.z = quaternion.z();
     odom_msg_.pose.pose.orientation.w = quaternion.w();
 
-
+    // Publish the odometry message
     odom_pub_->publish(odom_msg_);
 }
