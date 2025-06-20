@@ -10,6 +10,8 @@ import cflib
 import math
 
 TOPIC_IMU = '/imu0'
+LOG_FILE = 'console_crazyflie.txt'
+
 
 class CrazyflieIMUNode(Node):
 
@@ -36,6 +38,11 @@ class CrazyflieIMUNode(Node):
 
         self.get_logger().info('Connecting to Crazyflie...')
         self.cf.open_link(URI)
+        # Open a file and write nothing to it
+        with open(LOG_FILE, 'w') as f:
+            f.write('')
+
+            
 
     def _on_connect(self, _):
         '''
@@ -94,7 +101,14 @@ class CrazyflieIMUNode(Node):
 
         
     def log_console(self, text):
+        '''
+            Callback for receiving console messages from the Crazyflie.
+            It logs the message to the console and appends it to a file.
+        '''
         self.get_logger().info(text)
+        with open(LOG_FILE, 'a') as f:
+            f.write(text + '\n')
+            f.flush()
 
 
 def main(args=None):

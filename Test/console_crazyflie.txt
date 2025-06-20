@@ -1,0 +1,4127 @@
+CPX: ESP32: I (1518295) WIFI: 
+Connection accepted
+
+CPX: ESP32: I (1518295) WIFI: 
+Client connected
+
+CPX: CPX connected
+
+CPX: GAP8: Wifi client connect
+ion status: 1
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.000 0.000 0.000 0.000 0.00
+0 0.000 delay: 4140
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.000 0.000 0.000 0.000 0.00
+0 0.000 delay: 756
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.000 0.000 0.000 0.000 0.00
+0 0.000 delay: 710
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.000 0.000 0.000 0.000 0.00
+0 0.000 delay: 699
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.017 0.001 0.002 0.002 -0.0
+06 -0.001 delay: 694
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.016 0.000 0.001 0.002 -0.0
+06 -0.001 delay: 685
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.000 -0.000 0.001 -0
+.003 -0.001 delay: 651
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.014 -0.001 0.001 0.002 -0.
+005 -0.002 delay: 667
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 0.002 0.001 -0.
+004 -0.002 delay: 669
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.014 -0.001 0.003 -0.001 -0
+.005 -0.001 delay: 688
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.000 0.002 -0.001 -0
+.004 -0.001 delay: 669
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.012 0.000 0.000 -0.000 -0.
+004 -0.002 delay: 672
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 -0.002 0.001 -0.000 0.
+001 0.000 delay: 667
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.010 -0.003 0.002 0.003 0.0
+00 -0.001 delay: 709
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.009 -0.002 -0.000 0.008 0.
+002 -0.004 delay: 723
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 -0.002 0.003 0.008 -0.
+003 -0.007 delay: 707
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.012 0.000 0.003 0.013 -0.0
+05 -0.011 delay: 709
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.012 -0.000 0.002 0.012 -0.
+005 -0.013 delay: 715
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.000 0.003 0.013 -0.
+004 -0.011 delay: 743
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.012 0.000 0.002 0.016 -0.0
+04 -0.014 delay: 713
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.012 -0.000 0.002 0.014 -0.
+004 -0.013 delay: 701
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.012 -0.001 0.002 0.015 -0.
+003 -0.015 delay: 701
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.012 0.000 0.001 0.016 -0.0
+01 -0.015 delay: 697
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.012 0.000 0.002 0.017 0.00
+1 -0.014 delay: 662
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.012 0.000 0.001 0.018 0.00
+1 -0.014 delay: 658
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.012 0.000 0.001 0.019 0.00
+2 -0.014 delay: 698
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 0.000 0.002 0.019 0.00
+3 -0.014 delay: 701
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 0.001 0.000 0.021 0.00
+3 -0.016 delay: 728
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.000 0.001 0.021 0.0
+04 -0.015 delay: 697
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 0.002 0.021 0.0
+04 -0.016 delay: 683
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 0.002 0.022 0.0
+05 -0.018 delay: 667
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 0.001 0.023 0.0
+06 -0.019 delay: 676
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.000 0.000 0.024 0.0
+06 -0.019 delay: 674
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.014 -0.001 0.000 0.024 0.0
+06 -0.018 delay: 676
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.012 -0.001 -0.002 0.024 0.
+007 -0.019 delay: 686
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.000 0.024 0.
+007 -0.019 delay: 703
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.000 0.024 0.
+007 -0.019 delay: 660
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.001 0.025 0.
+008 -0.020 delay: 642
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.000 0.026 0.
+008 -0.020 delay: 640
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.000 0.026 0.
+008 -0.021 delay: 639
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.000 0.027 0.
+009 -0.021 delay: 637
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.000 0.027 0.
+009 -0.021 delay: 668
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.000 0.028 0.
+009 -0.022 delay: 656
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.000 0.028 0.
+009 -0.021 delay: 656
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.000 0.029 0.
+009 -0.021 delay: 656
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.000 0.029 0.
+010 -0.023 delay: 645
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.000 0.029 0.
+009 -0.021 delay: 669
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.001 0.029 0.
+010 -0.023 delay: 709
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.000 0.029 0.
+009 -0.024 delay: 704
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.000 0.029 0.
+010 -0.023 delay: 713
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.000 0.029 0.
+011 -0.025 delay: 732
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.000 0.031 0.
+012 -0.027 delay: 724
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.000 0.032 0.
+012 -0.026 delay: 711
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.001 0.032 0.
+011 -0.027 delay: 684
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.000 0.032 0.
+012 -0.027 delay: 673
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.000 0.031 0.
+010 -0.027 delay: 680
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.012 -0.001 -0.001 0.030 0.
+014 -0.025 delay: 687
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.001 0.031 0.
+013 -0.024 delay: 664
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.001 0.030 0.
+014 -0.025 delay: 656
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.001 0.031 0.
+014 -0.026 delay: 688
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.001 0.032 0.
+015 -0.025 delay: 657
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.001 0.031 0.
+013 -0.026 delay: 657
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.000 0.031 0.
+014 -0.024 delay: 637
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.000 0.032 0.
+014 -0.026 delay: 650
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.000 0.032 0.
+014 -0.027 delay: 715
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.001 0.032 0.
+014 -0.026 delay: 713
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.001 0.032 0.
+015 -0.027 delay: 704
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 -0.001 -0.001 0.033 0.
+015 -0.027 delay: 732
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.002 -0.002 0.033 0.
+013 -0.027 delay: 745
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.000 -0.001 0.034 0.
+013 -0.029 delay: 703
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.001 0.000 0.036 0.01
+4 -0.028 delay: 700
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.000 0.000 0.035 0.0
+15 -0.027 delay: 706
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.000 0.000 0.034 0.0
+15 -0.029 delay: 691
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.000 0.000 0.036 0.0
+15 -0.028 delay: 702
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.000 0.000 0.034 0.0
+14 -0.028 delay: 674
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.000 0.000 0.034 0.0
+14 -0.030 delay: 686
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.000 0.000 0.034 0.0
+14 -0.029 delay: 675
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.000 0.000 0.034 0.0
+14 -0.028 delay: 699
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.016 -0.000 0.000 0.034 0.0
+15 -0.029 delay: 687
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.016 -0.000 0.000 0.035 0.0
+14 -0.028 delay: 694
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.016 -0.000 0.000 0.035 0.0
+16 -0.029 delay: 680
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.016 0.000 0.000 0.035 0.01
+5 -0.029 delay: 672
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.016 0.000 0.000 0.035 0.01
+6 -0.029 delay: 661
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.016 -0.000 0.000 0.035 0.0
+16 -0.028 delay: 659
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.000 0.000 0.036 0.01
+6 -0.030 delay: 654
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.000 0.000 0.037 0.01
+6 -0.030 delay: 685
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.000 0.000 0.037 0.0
+14 -0.031 delay: 668
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.000 0.000 0.037 0.0
+15 -0.031 delay: 648
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.000 0.000 0.037 0.0
+14 -0.033 delay: 950
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.000 0.000 0.038 0.0
+17 -0.031 delay: 1028
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.000 0.000 0.037 0.0
+16 -0.030 delay: 1033
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.000 0.000 0.037 0.0
+16 -0.031 delay: 1001
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.000 0.000 0.037 0.0
+17 -0.030 delay: 995
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.000 0.000 0.037 0.0
+17 -0.030 delay: 791
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.000 0.000 0.038 0.0
+17 -0.030 delay: 707
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.000 0.000 0.038 0.0
+17 -0.030 delay: 686
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.000 0.000 0.038 0.01
+7 -0.029 delay: 687
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.000 0.000 0.038 0.0
+17 -0.030 delay: 711
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.000 0.000 0.038 0.0
+18 -0.030 delay: 682
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.000 0.000 0.037 0.0
+18 -0.029 delay: 669
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.000 0.000 0.039 0.0
+21 -0.029 delay: 667
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.000 0.000 0.039 0.02
+1 -0.027 delay: 731
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.000 0.000 0.037 0.02
+0 -0.026 delay: 747
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.000 0.001 0.038 0.02
+1 -0.027 delay: 740
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.000 0.000 0.038 0.02
+1 -0.027 delay: 746
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.000 0.000 0.038 0.02
+1 -0.028 delay: 721
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.000 0.000 0.038 0.02
+0 -0.029 delay: 725
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.000 0.000 0.039 0.02
+1 -0.029 delay: 687
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.000 0.000 0.039 0.02
+1 -0.029 delay: 672
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.000 0.000 0.038 0.0
+21 -0.030 delay: 670
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.000 0.000 0.039 0.02
+2 -0.029 delay: 702
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.000 0.000 0.039 0.02
+2 -0.029 delay: 718
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.000 0.000 0.038 0.02
+2 -0.029 delay: 715
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.000 0.000 0.039 0.02
+2 -0.030 delay: 716
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.000 0.000 0.039 0.02
+2 -0.029 delay: 716
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.000 0.000 0.039 0.0
+21 -0.030 delay: 738
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.000 0.000 0.040 0.0
+23 -0.030 delay: 687
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.000 0.000 0.040 0.0
+23 -0.030 delay: 639
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.000 0.000 0.040 0.0
+23 -0.030 delay: 660
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.000 0.000 0.039 0.02
+3 -0.030 delay: 656
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.000 0.000 0.039 0.02
+6 -0.029 delay: 1184
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.000 0.000 0.040 0.02
+6 -0.027 delay: 1174
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.000 -0.000 0.040 0.0
+27 -0.027 delay: 1175
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.000 0.000 0.039 0.02
+6 -0.028 delay: 1153
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 -0.000 -0.001 0.040 0.
+026 -0.027 delay: 1128
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.000 -0.001 0.039 0.0
+27 -0.026 delay: 862
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.001 0.000 0.036 0.01
+3 0.006 delay: 685
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.001 0.001 0.040 0.02
+0 0.004 delay: 718
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.001 0.001 0.040 0.02
+4 0.001 delay: 726
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.001 -0.002 0.048 0.0
+32 -0.003 delay: 762
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.002 -0.002 0.061 0.0
+43 0.014 delay: 756
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.018 -0.000 0.000 0.075 0.0
+52 0.011 delay: 770
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.018 0.002 -0.004 0.068 0.0
+57 0.026 delay: 696
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.020 0.001 -0.005 0.061 0.0
+71 0.028 delay: 674
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.021 0.002 -0.005 0.062 0.0
+70 0.020 delay: 704
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.023 0.002 -0.006 0.063 0.0
+62 0.022 delay: 685
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.021 0.004 -0.011 0.074 0.0
+75 0.023 delay: 664
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.020 0.004 -0.008 0.060 0.0
+74 0.030 delay: 705
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.023 0.004 -0.009 0.053 0.0
+70 0.029 delay: 717
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.025 0.004 -0.008 0.051 0.0
+68 0.030 delay: 695
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.024 0.004 -0.009 0.052 0.0
+69 0.028 delay: 691
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.024 0.004 -0.008 0.049 0.0
+70 0.025 delay: 698
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.026 0.003 -0.009 0.048 0.0
+67 0.019 delay: 649
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.026 0.003 -0.009 0.047 0.0
+69 0.018 delay: 666
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.027 0.004 -0.009 0.048 0.0
+68 0.019 delay: 691
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.027 0.003 -0.008 0.050 0.0
+65 0.014 delay: 681
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.027 0.004 -0.009 0.055 0.0
+64 0.008 delay: 678
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.028 0.003 -0.009 0.052 0.0
+64 0.011 delay: 710
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.028 0.003 -0.009 0.052 0.0
+63 0.009 delay: 686
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.028 0.002 -0.009 0.051 0.0
+63 0.009 delay: 705
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.028 0.003 -0.009 0.052 0.0
+63 0.008 delay: 709
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.028 0.002 -0.009 0.052 0.0
+63 0.006 delay: 711
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.028 0.003 -0.009 0.053 0.0
+64 0.006 delay: 740
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.028 0.002 -0.010 0.053 0.0
+64 0.007 delay: 727
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.028 0.002 -0.010 0.053 0.0
+64 0.006 delay: 779
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.002 -0.010 0.052 0.0
+63 0.004 delay: 724
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.028 0.002 -0.010 0.053 0.0
+63 0.004 delay: 717
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.028 0.002 -0.009 0.053 0.0
+64 0.005 delay: 707
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.028 0.002 -0.009 0.053 0.0
+64 0.006 delay: 695
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.028 0.002 -0.009 0.053 0.0
+65 0.005 delay: 663
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.028 0.003 -0.010 0.053 0.0
+65 0.006 delay: 713
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.002 -0.009 0.052 0.0
+64 0.007 delay: 706
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.002 -0.009 0.051 0.0
+65 0.008 delay: 707
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.002 -0.010 0.050 0.0
+66 0.007 delay: 698
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.001 -0.010 0.050 0.0
+66 0.007 delay: 714
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.001 -0.010 0.049 0.0
+66 0.008 delay: 712
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.001 -0.009 0.049 0.0
+65 0.008 delay: 722
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.001 -0.009 0.047 0.0
+64 0.008 delay: 727
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.001 -0.009 0.047 0.0
+63 0.008 delay: 715
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.001 -0.008 0.048 0.0
+64 0.007 delay: 732
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.001 -0.009 0.048 0.0
+64 0.006 delay: 711
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.001 -0.009 0.050 0.0
+63 0.005 delay: 665
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.001 -0.009 0.050 0.0
+63 0.006 delay: 665
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.030 0.001 -0.009 0.050 0.0
+62 0.005 delay: 672
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.031 -0.001 -0.000 0.044 0.
+054 0.004 delay: 661
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.033 -0.004 0.013 0.036 0.0
+34 0.004 delay: 654
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.037 -0.004 0.014 0.034 0.0
+33 0.006 delay: 652
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.035 -0.003 0.002 0.038 0.0
+44 0.005 delay: 663
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 -0.002 -0.008 0.049 0.
+049 0.001 delay: 739
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 -0.000 -0.019 0.056 0.
+060 0.001 delay: 722
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.031 0.002 -0.019 0.056 0.0
+61 0.003 delay: 713
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.033 0.003 -0.018 0.055 0.0
+59 0.004 delay: 706
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.033 0.002 -0.017 0.055 0.0
+59 0.003 delay: 711
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.033 0.003 -0.016 0.056 0.0
+57 0.003 delay: 697
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.034 0.002 -0.016 0.053 0.0
+57 0.003 delay: 685
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.034 0.001 -0.015 0.053 0.0
+57 0.003 delay: 694
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.034 0.002 -0.015 0.052 0.0
+57 0.003 delay: 691
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.035 0.002 -0.014 0.052 0.0
+56 0.003 delay: 709
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.034 0.002 -0.014 0.052 0.0
+57 0.003 delay: 699
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.034 0.002 -0.014 0.053 0.0
+57 0.001 delay: 681
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.034 0.001 -0.014 0.052 0.0
+56 0.001 delay: 660
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.033 0.001 -0.014 0.053 0.0
+56 -0.000 delay: 657
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.033 0.000 -0.015 0.051 0.0
+57 -0.001 delay: 657
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.034 0.001 -0.014 0.052 0.0
+56 -0.001 delay: 653
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.034 0.001 -0.014 0.052 0.0
+56 -0.001 delay: 661
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.034 0.001 -0.014 0.053 0.0
+56 -0.001 delay: 666
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.033 0.001 -0.014 0.053 0.0
+57 -0.001 delay: 669
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.034 0.001 -0.014 0.053 0.0
+56 -0.001 delay: 639
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.034 0.001 -0.014 0.052 0.0
+56 -0.001 delay: 644
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.033 0.001 -0.014 0.053 0.0
+56 -0.002 delay: 650
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.033 0.001 -0.014 0.053 0.0
+56 -0.002 delay: 660
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.033 0.001 -0.014 0.053 0.0
+57 -0.001 delay: 694
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.033 0.001 -0.013 0.053 0.0
+56 -0.001 delay: 691
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.033 0.001 -0.013 0.053 0.0
+57 -0.002 delay: 684
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.033 0.001 -0.014 0.053 0.0
+57 -0.001 delay: 681
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.033 0.001 -0.014 0.053 0.0
+58 -0.002 delay: 673
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.033 0.000 -0.014 0.052 0.0
+57 -0.002 delay: 643
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.034 0.001 -0.013 0.052 0.0
+57 -0.001 delay: 684
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.030 0.001 -0.013 0.052 0.0
+61 -0.001 delay: 663
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.001 -0.013 0.052 0.0
+61 0.000 delay: 668
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.031 0.001 -0.013 0.052 0.0
+60 -0.000 delay: 719
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.031 0.001 -0.013 0.052 0.0
+60 -0.001 delay: 739
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 0.001 -0.013 0.052 0.0
+59 -0.001 delay: 723
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 0.002 -0.013 0.053 0.0
+59 -0.002 delay: 731
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 0.000 -0.013 0.052 0.0
+59 -0.002 delay: 748
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.031 -0.000 -0.013 0.052 0.
+059 -0.003 delay: 716
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 0.000 -0.014 0.052 0.0
+59 -0.003 delay: 687
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.031 -0.000 -0.014 0.052 0.
+060 -0.004 delay: 668
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 -0.000 -0.014 0.053 0.
+059 -0.004 delay: 638
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 -0.000 -0.015 0.054 0.
+061 -0.007 delay: 668
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 -0.000 -0.015 0.053 0.
+060 -0.007 delay: 677
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 -0.000 -0.015 0.053 0.
+060 -0.006 delay: 681
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 -0.000 -0.015 0.053 0.
+060 -0.006 delay: 703
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 0.000 -0.015 0.053 0.0
+61 -0.005 delay: 740
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 0.000 -0.015 0.053 0.0
+61 -0.005 delay: 698
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.033 0.000 -0.015 0.053 0.0
+61 -0.004 delay: 732
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.033 0.000 -0.015 0.053 0.0
+62 -0.004 delay: 712
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 -0.000 -0.015 0.052 0.
+062 -0.005 delay: 702
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.031 -0.000 -0.015 0.052 0.
+064 -0.004 delay: 699
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 -0.000 -0.015 0.052 0.
+064 -0.004 delay: 671
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 0.000 -0.015 0.052 0.0
+63 -0.004 delay: 673
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.033 0.000 -0.016 0.053 0.0
+64 -0.004 delay: 651
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 0.000 -0.016 0.052 0.0
+64 -0.003 delay: 649
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 0.000 -0.016 0.052 0.0
+63 -0.003 delay: 662
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 0.000 -0.016 0.051 0.0
+63 -0.005 delay: 663
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 0.000 -0.017 0.052 0.0
+62 -0.005 delay: 642
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 -0.000 -0.017 0.052 0.
+064 -0.005 delay: 677
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.031 -0.000 -0.016 0.052 0.
+064 -0.005 delay: 691
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.031 -0.000 -0.017 0.052 0.
+063 -0.005 delay: 669
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.031 0.001 -0.018 0.049 0.0
+67 -0.003 delay: 676
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.030 0.003 -0.021 0.046 0.0
+66 0.004 delay: 677
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.025 0.012 -0.044 0.061 0.0
+81 0.010 delay: 650
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.016 0.024 -0.079 0.078 0.1
+04 0.013 delay: 631
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.007 0.035 -0.102 0.088 0.1
+19 0.017 delay: 653
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.005 0.032 -0.110 0.090 0.1
+23 0.014 delay: 662
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.006 0.030 -0.107 0.091 0.1
+25 0.007 delay: 671
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.009 0.029 -0.097 0.091 0.1
+23 0.008 delay: 723
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 0.027 -0.085 0.083 0.1
+17 0.008 delay: 707
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.018 0.021 -0.074 0.070 0.1
+09 0.007 delay: 710
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.024 0.017 -0.059 0.058 0.1
+00 0.007 delay: 740
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.028 0.015 -0.045 0.052 0.0
+90 0.006 delay: 770
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 0.011 -0.039 0.047 0.0
+90 0.009 delay: 755
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.030 0.012 -0.033 0.047 0.0
+88 0.009 delay: 713
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.010 -0.034 0.045 0.0
+89 0.008 delay: 788
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.030 0.010 -0.037 0.045 0.0
+90 0.007 delay: 776
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.010 -0.037 0.047 0.0
+90 0.006 delay: 780
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.011 -0.039 0.051 0.0
+88 0.007 delay: 746
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.011 -0.038 0.050 0.0
+85 0.007 delay: 745
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.011 -0.037 0.050 0.0
+85 0.006 delay: 747
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.011 -0.038 0.051 0.0
+86 0.006 delay: 736
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.011 -0.038 0.050 0.0
+86 0.006 delay: 714
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.011 -0.037 0.050 0.0
+85 0.005 delay: 708
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.028 0.011 -0.037 0.051 0.0
+87 0.004 delay: 703
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.011 -0.037 0.048 0.0
+86 0.004 delay: 712
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.030 0.012 -0.037 0.049 0.0
+84 0.004 delay: 675
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.011 -0.037 0.049 0.0
+85 0.003 delay: 705
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.012 -0.037 0.049 0.0
+85 0.004 delay: 706
+
+CPX: GAP8: Hosition: 0.029 0.0
+12 -0.037 0.049 0.085 0.004 de
+lay: 706
+
+CPX: GAP8: Position: 0.029 0.0
+11 -0.037 0.049 0.085 0.004 de
+lay: 767
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.012 -0.037 0.050 0.0
+86 0.004 delay: 759
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.012 -0.037 0.049 0.0
+85 0.004 delay: 811
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.012 -0.037 0.049 0.0
+86 0.004 delay: 760
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.030 0.011 -0.037 0.049 0.0
+85 0.003 delay: 759
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.030 0.012 -0.038 0.049 0.0
+86 0.004 delay: 771
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.011 -0.038 0.049 0.0
+87 0.003 delay: 724
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.031 0.010 -0.038 0.048 0.0
+86 0.003 delay: 728
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.010 -0.038 0.049 0.0
+87 0.002 delay: 706
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.010 -0.038 0.049 0.0
+87 0.002 delay: 714
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.031 0.011 -0.038 0.049 0.0
+86 0.002 delay: 701
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.030 0.010 -0.038 0.049 0.0
+86 0.001 delay: 707
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.028 0.010 -0.038 0.049 0.0
+89 0.002 delay: 704
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.010 -0.038 0.049 0.0
+87 0.001 delay: 726
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.030 0.011 -0.038 0.051 0.0
+87 0.001 delay: 736
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.030 0.011 -0.038 0.051 0.0
+87 0.001 delay: 711
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.028 0.010 -0.038 0.049 0.0
+88 0.001 delay: 721
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.011 -0.038 0.051 0.0
+87 0.000 delay: 718
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.030 0.012 -0.038 0.051 0.0
+86 -0.000 delay: 751
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.011 -0.038 0.050 0.0
+87 0.001 delay: 725
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.031 0.011 -0.037 0.048 0.0
+86 0.003 delay: 713
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.031 0.011 -0.037 0.048 0.0
+86 0.003 delay: 702
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.030 0.011 -0.037 0.048 0.0
+87 0.002 delay: 732
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.030 0.011 -0.037 0.048 0.0
+87 0.002 delay: 707
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.031 0.011 -0.036 0.047 0.0
+86 0.001 delay: 648
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.031 0.011 -0.036 0.047 0.0
+85 0.002 delay: 674
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 0.011 -0.036 0.046 0.0
+84 0.002 delay: 683
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 0.010 -0.035 0.048 0.0
+78 -0.001 delay: 681
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 0.006 -0.030 0.058 0.0
+58 -0.012 delay: 668
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.028 -0.000 -0.025 0.056 0.
+047 -0.019 delay: 672
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.031 0.001 -0.017 0.048 0.0
+43 -0.016 delay: 667
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.030 -0.000 -0.011 0.042 0.
+038 -0.018 delay: 666
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 -0.002 -0.007 0.040 0.
+034 -0.019 delay: 682
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.030 -0.002 -0.004 0.038 0.
+032 -0.022 delay: 684
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 -0.002 -0.002 0.037 0.
+032 -0.022 delay: 687
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.028 -0.003 -0.001 0.035 0.
+031 -0.023 delay: 692
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.028 -0.005 0.001 0.033 0.0
+29 -0.025 delay: 750
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.033 -0.006 0.008 0.020 0.0
+28 -0.034 delay: 1014
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.036 -0.004 0.018 0.010 0.0
+26 -0.025 delay: 1029
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.037 -0.008 0.021 0.009 0.0
+23 -0.026 delay: 1043
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.041 -0.006 0.023 0.012 0.0
+16 -0.025 delay: 1031
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.038 -0.010 0.020 0.015 0.0
+20 -0.027 delay: 1000
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.039 -0.007 0.019 0.025 0.0
+14 -0.033 delay: 731
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.037 -0.008 0.018 0.023 0.0
+16 -0.034 delay: 700
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.036 -0.009 0.017 0.022 0.0
+17 -0.035 delay: 707
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.036 -0.010 0.018 0.022 0.0
+17 -0.036 delay: 723
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.036 -0.009 0.017 0.023 0.0
+17 -0.034 delay: 715
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.035 -0.008 0.017 0.025 0.0
+17 -0.036 delay: 727
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.035 -0.008 0.016 0.025 0.0
+17 -0.036 delay: 717
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.035 -0.008 0.016 0.026 0.0
+17 -0.037 delay: 701
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.035 -0.008 0.016 0.026 0.0
+17 -0.036 delay: 704
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.035 -0.009 0.016 0.026 0.0
+16 -0.036 delay: 724
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.035 -0.008 0.016 0.027 0.0
+17 -0.038 delay: 686
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.035 -0.008 0.015 0.028 0.0
+17 -0.038 delay: 657
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.035 -0.008 0.015 0.029 0.0
+17 -0.038 delay: 706
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.035 -0.008 0.015 0.029 0.0
+16 -0.037 delay: 738
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.035 -0.009 0.016 0.031 0.0
+13 -0.041 delay: 719
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.035 -0.008 0.015 0.031 0.0
+12 -0.040 delay: 703
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.035 -0.009 0.015 0.031 0.0
+13 -0.040 delay: 710
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.030 -0.008 0.014 0.031 0.0
+17 -0.040 delay: 710
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.030 -0.007 0.013 0.032 0.0
+17 -0.039 delay: 672
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.030 -0.007 0.013 0.033 0.0
+17 -0.040 delay: 657
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.034 -0.008 0.014 0.032 0.0
+15 -0.039 delay: 676
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.034 -0.008 0.014 0.033 0.0
+14 -0.039 delay: 674
+
+CPX: ESP32: I (1568105) WIFI: 
+station:78:0c:b8:5b:57:4dleave
+, AID=1
+
+CPX: ESP32: I (1571555) WIFI: 
+station:78:0c:b8:5b:57:4d join
+, AID=1
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.034 -0.008 0.013 0.033 0.0
+15 -0.040 delay: 702
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.034 -0.008 0.014 0.032 0.0
+15 -0.040 delay: 4417
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.034 -0.008 0.013 0.032 0.0
+15 -0.041 delay: 4398
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.034 -0.008 0.013 0.032 0.0
+15 -0.042 delay: 4449
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.033 -0.008 0.013 0.033 0.0
+15 -0.041 delay: 4462
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.033 -0.008 0.013 0.034 0.0
+16 -0.041 delay: 4428
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.033 -0.007 0.010 0.038 0.0
+20 -0.041 delay: 701
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 -0.010 0.010 0.035 0.0
+21 -0.043 delay: 690
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.031 -0.010 0.009 0.036 0.0
+21 -0.042 delay: 766
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.031 -0.009 0.009 0.036 0.0
+21 -0.042 delay: 701
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.028 -0.009 0.009 0.036 0.0
+23 -0.042 delay: 702
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.030 -0.008 0.009 0.037 0.0
+22 -0.042 delay: 699
+
+CPX: ESP32: I (1573495) WIFI: 
+station:78:0c:b8:5b:57:4dleave
+, AID=1
+
+CPX: ESP32: I (1576955) WIFI: 
+station:78:0c:b8:5b:57:4d join
+, AID=1
+
+CPX: ESP32: I (1577055) WIFI: 
+station:78:0c:b8:5b:57:4dleave
+, AID=1
+
+CPX: ESP32: I (1580505) WIFI: 
+station:78:0c:b8:5b:57:4d join
+, AID=1
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.031 -0.009 0.009 0.036 0.0
+22 -0.042 delay: 702
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.031 -0.010 0.008 0.036 0.0
+21 -0.042 delay: 8492
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.031 -0.010 0.009 0.036 0.0
+22 -0.042 delay: 8457
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 -0.010 0.008 0.037 0.0
+21 -0.043 delay: 8457
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.030 -0.010 0.008 0.036 0.0
+24 -0.043 delay: 8535
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.028 -0.010 0.008 0.036 0.0
+25 -0.044 delay: 8542
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.028 -0.010 0.008 0.036 0.0
+25 -0.044 delay: 8525
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.030 -0.009 0.007 0.038 0.0
+29 -0.040 delay: 695
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 -0.009 0.006 0.039 0.0
+27 -0.041 delay: 700
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.031 -0.008 0.006 0.039 0.0
+28 -0.040 delay: 654
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 -0.009 0.006 0.038 0.0
+27 -0.040 delay: 673
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.031 -0.009 0.007 0.038 0.0
+28 -0.041 delay: 676
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.030 -0.008 0.006 0.038 0.0
+29 -0.041 delay: 668
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 -0.008 0.006 0.038 0.0
+27 -0.040 delay: 677
+
+CPX: ESP32: I (1583075) WIFI: 
+station:78:0c:b8:5b:57:4dleave
+, AID=1
+
+CPX: ESP32: I (1586635) WIFI: 
+station:78:0c:b8:5b:57:4d join
+, AID=1
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.032 -0.009 0.006 0.038 0.0
+28 -0.041 delay: 706
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.030 -0.009 0.008 0.037 0.0
+29 -0.040 delay: 4454
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.030 -0.008 0.007 0.039 0.0
+29 -0.040 delay: 4495
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.030 -0.008 0.006 0.039 0.0
+29 -0.041 delay: 4569
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.029 -0.009 0.006 0.037 0.0
+30 -0.041 delay: 4633
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.030 -0.008 0.007 0.038 0.0
+28 -0.041 delay: 4672
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.040 -0.007 -0.010 0.066 0.
+014 0.031 delay: 975
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.028 0.013 -0.043 0.068 0.0
+33 0.046 delay: 914
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.018 0.019 -0.042 0.076 0.0
+41 0.052 delay: 906
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.017 0.021 -0.043 0.079 0.0
+36 0.057 delay: 835
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.017 0.021 -0.042 0.081 0.0
+38 0.057 delay: 819
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.018 0.022 -0.041 0.082 0.0
+34 0.049 delay: 732
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.017 0.021 -0.040 0.082 0.0
+31 0.043 delay: 775
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.019 0.019 -0.040 0.079 0.0
+28 0.030 delay: 749
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.019 0.018 -0.039 0.079 0.0
+25 0.022 delay: 766
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.019 0.017 -0.039 0.077 0.0
+23 0.015 delay: 729
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.020 0.016 -0.039 0.074 0.0
+17 0.008 delay: 732
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.020 0.017 -0.039 0.073 0.0
+12 0.006 delay: 781
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.020 0.017 -0.039 0.070 0.0
+05 -0.009 delay: 674
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.020 0.014 -0.037 0.064 0.0
+04 -0.016 delay: 709
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.021 0.014 -0.038 0.062 0.0
+00 -0.019 delay: 700
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.018 0.014 -0.038 0.060 0.0
+02 -0.021 delay: 690
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.018 0.014 -0.038 0.059 0.0
+05 -0.022 delay: 703
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.016 0.011 -0.038 0.056 0.0
+09 -0.023 delay: 709
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 0.010 -0.038 0.055 0.0
+17 -0.022 delay: 692
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.016 0.014 -0.038 0.058 0.0
+18 -0.023 delay: 682
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.016 0.013 -0.037 0.056 0.0
+21 -0.021 delay: 682
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.016 0.013 -0.037 0.055 0.0
+22 -0.022 delay: 674
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.017 0.013 -0.036 0.055 0.0
+23 -0.022 delay: 682
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.013 -0.037 0.055 0.0
+22 -0.021 delay: 714
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.015 0.012 -0.036 0.054 0.0
+24 -0.020 delay: 700
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.014 0.013 -0.036 0.055 0.0
+28 -0.020 delay: 699
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.014 0.012 -0.036 0.054 0.0
+29 -0.017 delay: 713
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.014 0.012 -0.036 0.053 0.0
+37 -0.017 delay: 697
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.014 0.012 -0.035 0.053 0.0
+32 -0.016 delay: 653
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.014 0.012 -0.036 0.053 0.0
+33 -0.015 delay: 708
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.014 0.012 -0.036 0.053 0.0
+27 -0.014 delay: 729
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.014 0.012 -0.035 0.053 0.0
+27 -0.015 delay: 703
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.014 0.012 -0.036 0.054 0.0
+28 -0.016 delay: 700
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.014 0.012 -0.036 0.053 0.0
+26 -0.014 delay: 697
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 0.013 -0.036 0.055 0.0
+29 -0.015 delay: 726
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.014 0.013 -0.036 0.054 0.0
+29 -0.017 delay: 721
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.014 0.012 -0.036 0.054 0.0
+27 -0.016 delay: 704
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 0.012 -0.036 0.053 0.0
+28 -0.015 delay: 716
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 0.012 -0.036 0.053 0.0
+30 -0.015 delay: 707
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 0.012 -0.036 0.054 0.0
+30 -0.017 delay: 665
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 0.012 -0.036 0.054 0.0
+30 -0.016 delay: 641
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.012 0.012 -0.036 0.054 0.0
+30 -0.016 delay: 690
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.012 0.012 -0.036 0.053 0.0
+33 -0.017 delay: 678
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.013 0.012 -0.036 0.053 0.0
+33 -0.017 delay: 671
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.012 0.012 -0.036 0.053 0.0
+33 -0.016 delay: 691
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.012 0.012 -0.036 0.053 0.0
+33 -0.017 delay: 669
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.012 0.012 -0.036 0.053 0.0
+35 -0.018 delay: 941
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.012 0.012 -0.036 0.054 0.0
+34 -0.017 delay: 920
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.012 0.012 -0.036 0.054 0.0
+34 -0.017 delay: 932
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.012 0.012 -0.036 0.054 0.0
+35 -0.017 delay: 913
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.012 0.012 -0.036 0.054 0.0
+34 -0.017 delay: 929
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.012 0.012 -0.035 0.055 0.0
+34 -0.016 delay: 682
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.012 0.012 -0.035 0.055 0.0
+35 -0.015 delay: 631
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.012 0.012 -0.035 0.055 0.0
+34 -0.016 delay: 633
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.012 0.012 -0.035 0.056 0.0
+36 -0.015 delay: 629
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 0.012 -0.035 0.055 0.0
+37 -0.016 delay: 625
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 0.012 -0.035 0.056 0.0
+37 -0.014 delay: 702
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 0.012 -0.035 0.055 0.0
+39 -0.015 delay: 678
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 0.012 -0.035 0.056 0.0
+37 -0.014 delay: 681
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 0.012 -0.035 0.055 0.0
+39 -0.015 delay: 684
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 0.012 -0.035 0.056 0.0
+39 -0.014 delay: 671
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 0.012 -0.035 0.055 0.0
+38 -0.015 delay: 653
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.012 0.012 -0.035 0.056 0.0
+38 -0.015 delay: 693
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.012 0.012 -0.035 0.056 0.0
+38 -0.014 delay: 681
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 0.012 -0.035 0.056 0.0
+38 -0.014 delay: 687
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.012 0.012 -0.035 0.055 0.0
+38 -0.013 delay: 711
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 0.012 -0.035 0.056 0.0
+39 -0.014 delay: 686
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 0.012 -0.035 0.057 0.0
+40 -0.013 delay: 671
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 0.012 -0.035 0.056 0.0
+40 -0.014 delay: 633
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 0.012 -0.035 0.056 0.0
+40 -0.014 delay: 712
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 0.012 -0.035 0.056 0.0
+38 -0.013 delay: 721
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 0.012 -0.035 0.056 0.0
+39 -0.012 delay: 714
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 0.012 -0.035 0.056 0.0
+38 -0.012 delay: 716
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 0.012 -0.035 0.057 0.0
+38 -0.012 delay: 722
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 0.012 -0.035 0.057 0.0
+38 -0.011 delay: 722
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.010 0.012 -0.034 0.057 0.0
+38 -0.011 delay: 680
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.010 0.012 -0.034 0.057 0.0
+41 -0.012 delay: 682
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.010 0.012 -0.034 0.057 0.0
+43 -0.012 delay: 671
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.010 0.012 -0.034 0.057 0.0
+43 -0.012 delay: 673
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.010 0.012 -0.034 0.056 0.0
+43 -0.012 delay: 668
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 0.011 -0.035 0.056 0.0
+42 -0.013 delay: 638
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 0.012 -0.034 0.056 0.0
+41 -0.012 delay: 631
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 0.012 -0.035 0.056 0.0
+41 -0.013 delay: 715
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 0.011 -0.034 0.056 0.0
+41 -0.013 delay: 723
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 0.011 -0.034 0.057 0.0
+41 -0.013 delay: 702
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.010 0.011 -0.034 0.056 0.0
+42 -0.013 delay: 699
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 0.011 -0.034 0.056 0.0
+41 -0.013 delay: 710
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.010 0.012 -0.034 0.057 0.0
+40 -0.012 delay: 698
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.010 0.012 -0.033 0.057 0.0
+40 -0.012 delay: 723
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 0.011 -0.034 0.057 0.0
+38 -0.012 delay: 701
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.010 0.011 -0.033 0.057 0.0
+39 -0.013 delay: 709
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.010 0.011 -0.034 0.057 0.0
+39 -0.013 delay: 708
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.010 0.012 -0.034 0.057 0.0
+39 -0.012 delay: 741
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 0.011 -0.033 0.058 0.0
+37 -0.012 delay: 764
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.011 0.012 -0.034 0.058 0.0
+36 -0.011 delay: 753
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.009 0.011 -0.034 0.057 0.0
+37 -0.011 delay: 759
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.009 0.010 -0.034 0.056 0.0
+36 -0.011 delay: 765
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.010 0.011 -0.034 0.059 0.0
+27 -0.012 delay: 756
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.009 0.008 -0.034 0.056 0.0
+20 -0.013 delay: 732
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.009 0.010 -0.033 0.060 0.0
+17 -0.014 delay: 671
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.008 0.010 -0.034 0.059 0.0
+18 -0.013 delay: 682
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.008 0.011 -0.034 0.060 0.0
+19 -0.013 delay: 685
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.008 0.013 -0.034 0.061 0.0
+20 -0.014 delay: 692
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.008 0.011 -0.033 0.061 0.0
+21 -0.014 delay: 710
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.008 0.012 -0.034 0.061 0.0
+23 -0.014 delay: 717
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.007 0.011 -0.034 0.059 0.0
+23 -0.014 delay: 704
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.007 0.011 -0.034 0.059 0.0
+23 -0.013 delay: 693
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.006 0.011 -0.034 0.060 0.0
+23 -0.013 delay: 668
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.006 0.011 -0.034 0.059 0.0
+24 -0.013 delay: 647
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.006 0.011 -0.035 0.059 0.0
+24 -0.014 delay: 659
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.006 0.011 -0.034 0.059 0.0
+23 -0.014 delay: 700
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.006 0.011 -0.035 0.060 0.0
+25 -0.014 delay: 716
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.006 0.011 -0.034 0.059 0.0
+25 -0.014 delay: 720
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.007 0.011 -0.034 0.060 0.0
+23 -0.014 delay: 722
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.007 0.011 -0.034 0.060 0.0
+22 -0.013 delay: 736
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.006 0.011 -0.033 0.059 0.0
+23 -0.011 delay: 722
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.006 0.011 -0.034 0.060 0.0
+25 -0.012 delay: 693
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.006 0.011 -0.034 0.060 0.0
+25 -0.012 delay: 691
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.006 0.010 -0.034 0.059 0.0
+27 -0.012 delay: 710
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.006 0.010 -0.034 0.060 0.0
+28 -0.014 delay: 700
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.006 0.011 -0.034 0.060 0.0
+27 -0.013 delay: 692
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.006 0.011 -0.034 0.060 0.0
+27 -0.013 delay: 697
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.006 0.011 -0.034 0.060 0.0
+26 -0.012 delay: 710
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.006 0.011 -0.034 0.060 0.0
+27 -0.013 delay: 732
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.006 0.011 -0.034 0.060 0.0
+26 -0.012 delay: 701
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.007 0.010 -0.035 0.060 0.0
+27 -0.013 delay: 694
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.006 0.011 -0.034 0.060 0.0
+27 -0.013 delay: 687
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.006 0.010 -0.035 0.060 0.0
+27 -0.012 delay: 677
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.006 0.010 -0.034 0.059 0.0
+27 -0.011 delay: 715
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.007 0.011 -0.035 0.060 0.0
+27 -0.012 delay: 710
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.008 0.011 -0.035 0.060 0.0
+27 -0.012 delay: 724
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.007 0.011 -0.035 0.061 0.0
+27 -0.012 delay: 729
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.007 0.011 -0.034 0.060 0.0
+27 -0.014 delay: 729
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.007 0.011 -0.035 0.061 0.0
+25 -0.014 delay: 660
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.007 0.011 -0.035 0.061 0.0
+25 -0.012 delay: 676
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.008 0.011 -0.035 0.061 0.0
+25 -0.012 delay: 639
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.007 0.011 -0.035 0.062 0.0
+26 -0.012 delay: 674
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.007 0.011 -0.034 0.062 0.0
+27 -0.012 delay: 654
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.007 0.011 -0.034 0.061 0.0
+27 -0.012 delay: 657
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.007 0.011 -0.034 0.061 0.0
+28 -0.013 delay: 657
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.007 0.011 -0.034 0.062 0.0
+25 -0.013 delay: 700
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.007 0.011 -0.034 0.061 0.0
+26 -0.013 delay: 705
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.007 0.011 -0.034 0.061 0.0
+26 -0.013 delay: 672
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.007 0.010 -0.034 0.061 0.0
+26 -0.013 delay: 677
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.007 0.010 -0.034 0.061 0.0
+25 -0.013 delay: 686
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.007 0.010 -0.034 0.061 0.0
+25 -0.014 delay: 697
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.006 0.011 -0.034 0.061 0.0
+26 -0.013 delay: 710
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.006 0.010 -0.034 0.061 0.0
+26 -0.013 delay: 715
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.007 0.009 -0.033 0.059 0.0
+26 -0.012 delay: 715
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.006 0.010 -0.034 0.060 0.0
+29 -0.013 delay: 711
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.005 0.010 -0.033 0.061 0.0
+29 -0.012 delay: 715
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.005 0.010 -0.033 0.061 0.0
+29 -0.013 delay: 644
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.005 0.011 -0.033 0.061 0.0
+30 -0.015 delay: 689
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.005 0.009 -0.033 0.060 0.0
+28 -0.015 delay: 679
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.005 0.009 -0.033 0.060 0.0
+25 -0.014 delay: 704
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.006 0.009 -0.033 0.060 0.0
+25 -0.013 delay: 684
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.005 0.009 -0.033 0.061 0.0
+24 -0.012 delay: 687
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.006 0.009 -0.034 0.060 0.0
+25 -0.012 delay: 705
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.005 0.009 -0.034 0.060 0.0
+27 -0.012 delay: 693
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.005 0.009 -0.035 0.059 0.0
+28 -0.014 delay: 680
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.004 0.008 -0.034 0.060 0.0
+27 -0.013 delay: 687
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.002 0.009 -0.030 0.060 0.0
+33 -0.009 delay: 682
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.001 0.006 -0.025 0.057 0.0
+34 -0.007 delay: 657
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.003 -0.000 -0.018 0.054 0.
+032 0.001 delay: 638
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.003 -0.004 -0.006 0.051 0.
+041 -0.011 delay: 661
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.002 -0.009 0.006 0.056 0.0
+37 -0.015 delay: 662
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.000 -0.017 0.027 0.055 0.
+041 -0.009 delay: 651
+
+CPX: GAP8: CPX: GAP8: Position
+: 0.002 -0.032 0.047 0.044 0.0
+37 -0.015 delay: 647
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.002 -0.041 0.072 0.041 0.
+029 -0.014 delay: 673
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.003 -0.058 0.093 0.032 0.
+031 -0.018 delay: 682
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.006 -0.060 0.109 0.032 0.
+036 -0.026 delay: 707
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.006 -0.067 0.122 0.029 0.
+028 -0.028 delay: 697
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.005 -0.073 0.131 0.021 0.
+028 -0.027 delay: 694
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.007 -0.074 0.134 0.019 0.
+031 -0.020 delay: 709
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.007 -0.072 0.132 0.026 0.
+038 -0.014 delay: 696
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.004 -0.073 0.122 0.026 0.
+042 -0.024 delay: 714
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.001 -0.073 0.119 0.028 0.
+040 -0.024 delay: 692
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.003 -0.071 0.114 0.032 0.
+041 -0.022 delay: 698
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.000 -0.072 0.107 0.031 0.
+045 -0.027 delay: 674
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.004 -0.069 0.101 0.036 0.
+042 -0.028 delay: 675
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.007 -0.064 0.087 0.045 0.
+035 -0.026 delay: 661
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.004 -0.067 0.078 0.041 0.
+048 -0.020 delay: 639
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.011 -0.063 0.073 0.052 0.
+040 -0.015 delay: 640
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.010 -0.062 0.069 0.048 0.
+046 -0.014 delay: 640
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.008 -0.060 0.065 0.047 0.
+047 -0.010 delay: 646
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.007 -0.058 0.064 0.046 0.
+057 -0.015 delay: 643
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.013 -0.054 0.060 0.046 0.
+063 -0.011 delay: 666
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.011 -0.051 0.051 0.044 0.
+058 -0.007 delay: 715
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.013 -0.049 0.047 0.042 0.
+062 -0.009 delay: 711
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.014 -0.047 0.040 0.042 0.
+064 -0.009 delay: 756
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.041 0.031 0.048 0.
+069 -0.009 delay: 770
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.041 0.021 0.051 0.
+066 -0.003 delay: 772
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.023 -0.034 0.004 0.050 0.
+072 -0.008 delay: 767
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.030 -0.008 0.052 0
+.059 -0.014 delay: 757
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.027 -0.025 -0.019 0.063 0
+.062 -0.013 delay: 756
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.021 -0.024 0.062 0
+.064 -0.010 delay: 751
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.021 -0.024 0.049 0
+.064 -0.004 delay: 739
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.018 -0.032 0.051 0
+.057 -0.006 delay: 739
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.026 -0.024 -0.032 0.047 0
+.069 -0.012 delay: 692
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.027 -0.023 -0.033 0.053 0
+.046 -0.013 delay: 733
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.026 -0.023 -0.029 0.059 0
+.037 -0.008 delay: 744
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.029 -0.024 -0.024 0.059 0
+.044 -0.004 delay: 773
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.030 -0.025 -0.023 0.059 0
+.045 -0.011 delay: 716
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.030 -0.024 -0.024 0.062 0
+.042 -0.014 delay: 790
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.030 -0.025 -0.022 0.063 0
+.043 -0.011 delay: 787
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.031 -0.025 -0.022 0.062 0
+.043 -0.009 delay: 786
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.032 -0.026 -0.021 0.059 0
+.049 -0.012 delay: 720
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.034 -0.027 -0.020 0.056 0
+.055 -0.011 delay: 758
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.033 -0.027 -0.019 0.057 0
+.053 -0.010 delay: 684
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.033 -0.026 -0.019 0.060 0
+.052 -0.009 delay: 712
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.032 -0.027 -0.020 0.058 0
+.047 -0.009 delay: 702
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.032 -0.028 -0.019 0.058 0
+.048 -0.011 delay: 696
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.032 -0.028 -0.020 0.058 0
+.045 -0.012 delay: 706
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.032 -0.029 -0.019 0.058 0
+.047 -0.008 delay: 693
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.033 -0.029 -0.019 0.057 0
+.047 -0.007 delay: 686
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.033 -0.029 -0.020 0.057 0
+.048 -0.008 delay: 721
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.034 -0.030 -0.020 0.057 0
+.048 -0.009 delay: 745
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.034 -0.031 -0.020 0.056 0
+.047 -0.009 delay: 743
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.033 -0.029 -0.020 0.059 0
+.046 -0.010 delay: 738
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.034 -0.030 -0.020 0.057 0
+.045 -0.011 delay: 748
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.034 -0.031 -0.019 0.057 0
+.047 -0.011 delay: 788
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.034 -0.031 -0.019 0.057 0
+.047 -0.013 delay: 771
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.035 -0.032 -0.020 0.056 0
+.046 -0.012 delay: 744
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.036 -0.034 -0.021 0.053 0
+.048 -0.012 delay: 732
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.035 -0.033 -0.019 0.056 0
+.045 -0.011 delay: 761
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.035 -0.033 -0.020 0.056 0
+.045 -0.011 delay: 644
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.035 -0.033 -0.020 0.056 0
+.045 -0.012 delay: 650
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.036 -0.033 -0.020 0.056 0
+.044 -0.010 delay: 659
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.037 -0.033 -0.019 0.056 0
+.045 -0.010 delay: 672
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.036 -0.033 -0.019 0.056 0
+.045 -0.012 delay: 675
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.037 -0.033 -0.019 0.056 0
+.044 -0.009 delay: 684
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.037 -0.033 -0.019 0.056 0
+.045 -0.010 delay: 683
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.037 -0.034 -0.019 0.056 0
+.043 -0.010 delay: 710
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.037 -0.034 -0.019 0.056 0
+.042 -0.009 delay: 739
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.037 -0.035 -0.019 0.053 0
+.044 -0.010 delay: 714
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.038 -0.036 -0.020 0.054 0
+.042 -0.012 delay: 725
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.039 -0.038 -0.020 0.052 0
+.042 -0.012 delay: 728
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.039 -0.037 -0.020 0.052 0
+.042 -0.012 delay: 694
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.039 -0.038 -0.020 0.052 0
+.044 -0.012 delay: 680
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.038 -0.038 -0.021 0.052 0
+.043 -0.010 delay: 684
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.039 -0.040 -0.020 0.050 0
+.043 -0.012 delay: 680
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.039 -0.039 -0.020 0.051 0
+.043 -0.013 delay: 675
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.040 -0.039 -0.020 0.051 0
+.043 -0.012 delay: 692
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.040 -0.038 -0.020 0.051 0
+.042 -0.013 delay: 737
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.038 -0.039 -0.020 0.051 0
+.040 -0.012 delay: 729
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.040 -0.041 -0.021 0.049 0
+.040 -0.011 delay: 708
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.040 -0.041 -0.021 0.048 0
+.041 -0.013 delay: 719
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.040 -0.042 -0.021 0.047 0
+.040 -0.013 delay: 716
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.041 -0.041 -0.020 0.049 0
+.041 -0.011 delay: 692
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.040 -0.041 -0.020 0.048 0
+.041 -0.012 delay: 694
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.041 -0.041 -0.020 0.049 0
+.041 -0.012 delay: 689
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.040 -0.042 -0.020 0.047 0
+.043 -0.011 delay: 701
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.039 -0.041 -0.019 0.047 0
+.044 -0.012 delay: 686
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.039 -0.040 -0.019 0.048 0
+.044 -0.011 delay: 682
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.039 -0.041 -0.017 0.042 0
+.054 -0.013 delay: 698
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.039 -0.041 -0.017 0.042 0
+.054 -0.013 delay: 722
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.040 -0.042 -0.017 0.041 0
+.054 -0.014 delay: 713
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.040 -0.042 -0.017 0.041 0
+.051 -0.015 delay: 701
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.039 -0.040 -0.017 0.043 0
+.053 -0.018 delay: 708
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.040 -0.042 -0.017 0.041 0
+.051 -0.016 delay: 724
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.040 -0.042 -0.017 0.040 0
+.052 -0.017 delay: 756
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.040 -0.042 -0.016 0.041 0
+.054 -0.017 delay: 731
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.039 -0.041 -0.017 0.041 0
+.052 -0.016 delay: 725
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.040 -0.042 -0.017 0.041 0
+.051 -0.016 delay: 722
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.040 -0.041 -0.017 0.041 0
+.051 -0.018 delay: 728
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.040 -0.042 -0.017 0.041 0
+.047 -0.016 delay: 702
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.041 -0.042 -0.017 0.041 0
+.049 -0.016 delay: 941
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.041 -0.041 -0.017 0.042 0
+.051 -0.015 delay: 958
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.039 -0.041 -0.017 0.042 0
+.049 -0.015 delay: 1030
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.038 -0.041 -0.017 0.043 0
+.047 -0.013 delay: 1005
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.039 -0.041 -0.017 0.042 0
+.048 -0.013 delay: 989
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.039 -0.041 -0.017 0.043 0
+.046 -0.011 delay: 726
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.039 -0.041 -0.017 0.043 0
+.048 -0.011 delay: 714
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.038 -0.041 -0.017 0.043 0
+.048 -0.013 delay: 710
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.038 -0.041 -0.017 0.042 0
+.049 -0.013 delay: 704
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.038 -0.041 -0.016 0.042 0
+.050 -0.013 delay: 716
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.037 -0.041 -0.017 0.042 0
+.050 -0.013 delay: 685
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.038 -0.042 -0.016 0.042 0
+.050 -0.012 delay: 670
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.040 -0.041 -0.016 0.042 0
+.052 -0.013 delay: 669
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.041 -0.041 -0.015 0.042 0
+.054 -0.011 delay: 637
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.042 -0.041 -0.016 0.041 0
+.055 -0.011 delay: 683
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.041 -0.041 -0.016 0.041 0
+.054 -0.012 delay: 694
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.040 -0.041 -0.016 0.042 0
+.052 -0.012 delay: 699
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.040 -0.042 -0.016 0.041 0
+.051 -0.008 delay: 709
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.040 -0.041 -0.016 0.040 0
+.052 -0.009 delay: 714
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.041 -0.041 -0.015 0.041 0
+.051 -0.011 delay: 700
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.040 -0.041 -0.015 0.041 0
+.048 -0.011 delay: 731
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.040 -0.041 -0.016 0.040 0
+.047 -0.009 delay: 723
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.039 -0.041 -0.015 0.041 0
+.047 -0.010 delay: 702
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.039 -0.041 -0.016 0.041 0
+.045 -0.009 delay: 719
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.038 -0.041 -0.016 0.041 0
+.045 -0.009 delay: 744
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.036 -0.041 -0.015 0.040 0
+.047 -0.008 delay: 712
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.039 -0.042 -0.014 0.040 0
+.052 -0.007 delay: 715
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.041 -0.042 -0.014 0.039 0
+.051 -0.006 delay: 750
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.044 -0.042 -0.015 0.039 0
+.054 -0.009 delay: 743
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.045 -0.042 -0.014 0.040 0
+.056 -0.009 delay: 836
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.046 -0.042 -0.014 0.040 0
+.055 -0.008 delay: 771
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.045 -0.042 -0.015 0.040 0
+.056 -0.008 delay: 782
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.045 -0.042 -0.014 0.040 0
+.056 -0.008 delay: 790
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.044 -0.042 -0.014 0.039 0
+.054 -0.008 delay: 782
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.044 -0.042 -0.014 0.038 0
+.058 -0.008 delay: 751
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.043 -0.042 -0.014 0.038 0
+.055 -0.006 delay: 731
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.042 -0.042 -0.014 0.038 0
+.055 -0.007 delay: 739
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.041 -0.042 -0.014 0.038 0
+.054 -0.007 delay: 742
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.040 -0.042 -0.014 0.038 0
+.052 -0.007 delay: 720
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.039 -0.042 -0.014 0.038 0
+.050 -0.005 delay: 728
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.039 -0.042 -0.013 0.038 0
+.050 -0.005 delay: 750
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.038 -0.042 -0.013 0.038 0
+.048 -0.004 delay: 724
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.039 -0.042 -0.013 0.034 0
+.054 -0.008 delay: 687
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.040 -0.042 -0.014 0.035 0
+.053 -0.008 delay: 692
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.040 -0.044 -0.015 0.033 0
+.042 0.002 delay: 716
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.041 -0.044 -0.010 0.017 0
+.056 0.012 delay: 683
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.042 -0.045 -0.011 0.015 0
+.055 0.011 delay: 713
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.042 -0.044 -0.011 0.013 0
+.056 0.006 delay: 703
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.043 -0.044 -0.009 0.012 0
+.060 0.011 delay: 719
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.043 -0.044 -0.009 0.017 0
+.059 0.007 delay: 697
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.043 -0.042 -0.014 0.034 0
+.027 -0.004 delay: 693
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.046 -0.042 -0.016 0.036 0
+.034 -0.024 delay: 640
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.044 -0.038 -0.012 0.036 0
+.041 -0.035 delay: 669
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.041 -0.038 -0.011 0.034 0
+.046 -0.040 delay: 679
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.043 -0.035 -0.011 0.041 0
+.050 -0.039 delay: 674
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.043 -0.036 -0.009 0.034 0
+.056 -0.020 delay: 678
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.038 -0.033 -0.007 0.034 0
+.057 -0.012 delay: 685
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.038 -0.033 -0.005 0.040 0
+.056 -0.015 delay: 734
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.038 -0.035 -0.005 0.042 0
+.052 -0.016 delay: 769
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.036 -0.034 -0.008 0.048 0
+.052 -0.018 delay: 761
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.035 -0.030 -0.009 0.054 0
+.057 -0.020 delay: 758
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.034 -0.031 -0.007 0.051 0
+.054 -0.023 delay: 791
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.035 -0.031 -0.004 0.049 0
+.051 -0.026 delay: 739
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.035 -0.031 -0.002 0.049 0
+.053 -0.028 delay: 667
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.031 -0.027 -0.004 0.049 0
+.056 -0.023 delay: 657
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.029 -0.027 -0.002 0.047 0
+.060 -0.024 delay: 644
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.025 0.001 0.046 0.
+049 -0.021 delay: 651
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.030 -0.027 -0.001 0.048 0
+.052 -0.023 delay: 642
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.029 -0.026 -0.002 0.052 0
+.057 -0.025 delay: 637
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.029 -0.027 -0.000 0.051 0
+.054 -0.026 delay: 654
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.031 -0.027 -0.002 0.055 0
+.059 -0.032 delay: 732
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.031 -0.028 -0.002 0.055 0
+.055 -0.030 delay: 711
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.029 -0.027 -0.001 0.057 0
+.077 -0.037 delay: 710
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.029 -0.025 0.001 0.050 0.
+074 -0.031 delay: 697
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.030 -0.026 0.003 0.045 0.
+075 -0.026 delay: 723
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.027 -0.024 0.007 0.042 0.
+072 -0.020 delay: 706
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.025 0.007 0.045 0.
+075 -0.024 delay: 699
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.027 -0.024 0.008 0.048 0.
+076 -0.023 delay: 702
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.027 -0.027 0.008 0.047 0.
+075 -0.025 delay: 704
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.026 -0.027 0.008 0.047 0.
+072 -0.025 delay: 703
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.027 0.008 0.052 0.
+074 -0.026 delay: 642
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.026 -0.027 0.008 0.056 0.
+078 -0.024 delay: 670
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.027 -0.026 0.010 0.056 0.
+078 -0.024 delay: 660
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.027 -0.026 0.010 0.056 0.
+077 -0.025 delay: 656
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.027 -0.027 0.011 0.056 0.
+075 -0.027 delay: 646
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.027 -0.029 0.010 0.053 0.
+075 -0.028 delay: 659
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.027 -0.029 0.010 0.056 0.
+075 -0.029 delay: 619
+
+CPX: ESP32: I (1636325) WIFI: 
+station:78:0c:b8:5b:57:4dleave
+, AID=1
+
+CPX: ESP32: I (1639785) WIFI: 
+station:78:0c:b8:5b:57:4d join
+, AID=1
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.028 -0.029 0.011 0.056 0.
+075 -0.029 delay: 647
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.028 -0.029 0.012 0.057 0.
+075 -0.031 delay: 4675
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.028 -0.029 0.012 0.059 0.
+075 -0.033 delay: 4661
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.028 -0.028 0.012 0.058 0.
+074 -0.030 delay: 4698
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.028 -0.028 0.012 0.060 0.
+074 -0.032 delay: 4678
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.028 -0.028 0.012 0.066 0.
+077 -0.034 delay: 4672
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.027 -0.028 0.015 0.066 0.
+069 -0.040 delay: 659
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.028 -0.029 0.014 0.066 0.
+070 -0.041 delay: 685
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.028 -0.031 0.014 0.063 0.
+071 -0.043 delay: 671
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.028 -0.031 0.014 0.063 0.
+070 -0.043 delay: 664
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.029 -0.030 0.014 0.066 0.
+071 -0.042 delay: 661
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.030 -0.029 0.014 0.066 0.
+072 -0.041 delay: 663
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.029 -0.030 0.015 0.065 0.
+068 -0.043 delay: 632
+
+CPX: ESP32: I (1641955) WIFI: 
+station:78:0c:b8:5b:57:4dleave
+, AID=1
+
+CPX: ESP32: I (1645425) WIFI: 
+station:78:0c:b8:5b:57:4d join
+, AID=1
+
+CPX: ESP32: I (1645515) WIFI: 
+station:78:0c:b8:5b:57:4dleave
+, AID=1
+
+CPX: ESP32: I (1648965) WIFI: 
+station:78:0c:b8:5b:57:4d join
+, AID=1
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.027 -0.030 0.015 0.064 0.
+067 -0.042 delay: 8292
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.028 -0.029 0.016 0.062 0.
+067 -0.041 delay: 8328
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.029 -0.028 0.018 0.047 0.
+055 -0.035 delay: 8331
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.029 -0.029 0.020 0.043 0.
+053 -0.018 delay: 8328
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.027 -0.028 0.019 0.052 0.
+045 -0.004 delay: 8330
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.029 -0.026 0.021 0.051 0.
+025 0.003 delay: 8319
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.044 -0.021 0.029 0.055 0.
+052 -0.015 delay: 648
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.032 -0.025 0.025 0.049 0.
+041 -0.022 delay: 678
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.026 -0.024 0.025 0.050 0.
+034 -0.023 delay: 677
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.026 -0.024 0.024 0.052 0.
+034 -0.022 delay: 678
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.026 -0.025 0.024 0.049 0.
+033 -0.022 delay: 687
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.027 -0.025 0.024 0.048 0.
+035 -0.023 delay: 685
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.024 0.025 0.049 0.
+033 -0.023 delay: 649
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.027 -0.026 0.025 0.046 0.
+036 -0.023 delay: 661
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.024 0.024 0.049 0.
+035 -0.024 delay: 697
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.023 0.024 0.051 0.
+033 -0.024 delay: 676
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.024 0.024 0.049 0.
+034 -0.024 delay: 682
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.025 0.024 0.049 0.
+033 -0.025 delay: 686
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.023 -0.024 0.024 0.050 0.
+032 -0.025 delay: 641
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.023 -0.025 0.024 0.049 0.
+032 -0.025 delay: 700
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.025 0.024 0.049 0.
+034 -0.025 delay: 661
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.024 0.024 0.050 0.
+034 -0.026 delay: 656
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.024 0.024 0.051 0.
+033 -0.026 delay: 672
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.025 0.051 0.
+034 -0.027 delay: 684
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.023 -0.024 0.024 0.050 0.
+032 -0.026 delay: 704
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.025 0.050 0.
+033 -0.025 delay: 682
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.024 0.025 0.051 0.
+034 -0.026 delay: 693
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.026 -0.024 0.025 0.051 0.
+035 -0.027 delay: 684
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.026 -0.025 0.025 0.049 0.
+034 -0.027 delay: 712
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.027 -0.025 0.025 0.049 0.
+037 -0.029 delay: 670
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.026 -0.024 0.026 0.048 0.
+035 -0.028 delay: 637
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.027 -0.024 0.026 0.049 0.
+034 -0.028 delay: 708
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.027 -0.022 0.026 0.049 0.
+035 -0.028 delay: 697
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.028 -0.022 0.026 0.050 0.
+037 -0.030 delay: 695
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.028 -0.023 0.026 0.049 0.
+037 -0.029 delay: 987
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.027 -0.023 0.026 0.051 0.
+035 -0.030 delay: 1000
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.028 -0.023 0.027 0.050 0.
+035 -0.032 delay: 940
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.028 -0.023 0.026 0.051 0.
+034 -0.032 delay: 925
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.027 -0.023 0.026 0.050 0.
+034 -0.032 delay: 920
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.027 -0.023 0.026 0.051 0.
+034 -0.032 delay: 916
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.027 -0.023 0.026 0.051 0.
+034 -0.033 delay: 661
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.026 -0.023 0.026 0.051 0.
+033 -0.034 delay: 657
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.026 -0.023 0.025 0.051 0.
+033 -0.034 delay: 675
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.026 -0.024 0.026 0.050 0.
+034 -0.033 delay: 668
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.027 -0.024 0.026 0.050 0.
+034 -0.032 delay: 691
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.027 -0.024 0.026 0.050 0.
+035 -0.033 delay: 673
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.024 0.026 0.050 0.
+033 -0.033 delay: 697
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.024 0.026 0.051 0.
+033 -0.032 delay: 698
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.026 -0.024 0.026 0.050 0.
+034 -0.033 delay: 688
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.023 0.026 0.051 0.
+033 -0.033 delay: 712
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.026 -0.024 0.026 0.050 0.
+033 -0.033 delay: 689
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.026 -0.024 0.025 0.050 0.
+034 -0.033 delay: 638
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.025 0.025 0.049 0.
+033 -0.033 delay: 636
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.026 -0.024 0.026 0.050 0.
+033 -0.033 delay: 701
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.026 -0.023 0.026 0.050 0.
+034 -0.033 delay: 696
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.023 0.026 0.051 0.
+034 -0.034 delay: 695
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.025 0.050 0.
+031 -0.034 delay: 691
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.023 0.026 0.051 0.
+032 -0.034 delay: 696
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.024 0.025 0.051 0.
+034 -0.034 delay: 686
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.023 0.025 0.052 0.
+033 -0.035 delay: 710
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.027 -0.024 0.026 0.051 0.
+034 -0.034 delay: 697
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.023 0.026 0.052 0.
+032 -0.036 delay: 697
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.023 0.026 0.051 0.
+033 -0.034 delay: 712
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.026 -0.023 0.026 0.051 0.
+034 -0.034 delay: 682
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.026 -0.023 0.026 0.051 0.
+034 -0.035 delay: 647
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.026 -0.023 0.026 0.051 0.
+034 -0.035 delay: 686
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.027 -0.023 0.026 0.051 0.
+034 -0.035 delay: 678
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.023 0.026 0.050 0.
+033 -0.034 delay: 689
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.023 0.026 0.052 0.
+032 -0.034 delay: 691
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.023 0.026 0.051 0.
+032 -0.034 delay: 687
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.023 0.026 0.051 0.
+034 -0.035 delay: 657
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.026 -0.023 0.026 0.050 0.
+035 -0.035 delay: 702
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.023 0.026 0.051 0.
+033 -0.035 delay: 697
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.023 0.026 0.050 0.
+033 -0.035 delay: 708
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.023 0.026 0.050 0.
+033 -0.035 delay: 710
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.026 0.049 0.
+031 -0.036 delay: 718
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.026 0.049 0.
+032 -0.036 delay: 710
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.024 0.026 0.049 0.
+032 -0.036 delay: 689
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.024 0.026 0.049 0.
+032 -0.037 delay: 691
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.024 0.026 0.050 0.
+032 -0.037 delay: 682
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.024 0.026 0.050 0.
+032 -0.037 delay: 694
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.026 0.048 0.
+031 -0.037 delay: 683
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.026 -0.024 0.026 0.050 0.
+034 -0.038 delay: 649
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.026 -0.024 0.026 0.049 0.
+033 -0.036 delay: 654
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.026 0.048 0.
+031 -0.036 delay: 656
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.024 0.026 0.048 0.
+033 -0.035 delay: 671
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.026 -0.024 0.027 0.049 0.
+034 -0.036 delay: 668
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.028 -0.024 0.027 0.048 0.
+036 -0.036 delay: 658
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.026 0.049 0.
+033 -0.036 delay: 653
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.024 0.026 0.049 0.
+031 -0.036 delay: 681
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.023 0.027 0.051 0.
+033 -0.037 delay: 675
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.025 0.026 0.048 0.
+033 -0.036 delay: 665
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.024 0.027 0.048 0.
+034 -0.036 delay: 662
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.026 0.049 0.
+033 -0.035 delay: 666
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.026 0.048 0.
+033 -0.036 delay: 686
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.026 0.048 0.
+033 -0.036 delay: 677
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.023 0.026 0.051 0.
+033 -0.037 delay: 676
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.024 0.026 0.050 0.
+032 -0.037 delay: 684
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.025 0.026 0.048 0.
+033 -0.036 delay: 684
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.025 0.026 0.049 0.
+033 -0.038 delay: 675
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.026 0.048 0.
+032 -0.037 delay: 701
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.026 0.048 0.
+033 -0.038 delay: 697
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.025 0.026 0.048 0.
+033 -0.037 delay: 708
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.025 0.026 0.048 0.
+032 -0.037 delay: 714
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.024 0.027 0.049 0.
+033 -0.037 delay: 697
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.025 0.026 0.047 0.
+032 -0.038 delay: 671
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.023 0.027 0.050 0.
+032 -0.038 delay: 680
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.024 0.026 0.049 0.
+033 -0.037 delay: 669
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.026 0.049 0.
+033 -0.038 delay: 688
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.025 0.048 0.
+032 -0.038 delay: 674
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.026 0.048 0.
+032 -0.037 delay: 676
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.026 0.049 0.
+032 -0.038 delay: 712
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.026 0.048 0.
+031 -0.038 delay: 718
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.026 0.048 0.
+032 -0.038 delay: 690
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.026 0.048 0.
+032 -0.038 delay: 682
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.023 0.026 0.049 0.
+033 -0.037 delay: 694
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.026 0.049 0.
+032 -0.038 delay: 685
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.026 0.048 0.
+032 -0.038 delay: 671
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.026 0.048 0.
+032 -0.039 delay: 683
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.024 0.027 0.049 0.
+032 -0.038 delay: 685
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.024 0.026 0.048 0.
+033 -0.039 delay: 676
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.027 0.050 0.
+032 -0.039 delay: 702
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.026 0.049 0.
+031 -0.038 delay: 655
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.025 0.049 0.
+031 -0.039 delay: 653
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.024 0.026 0.049 0.
+033 -0.039 delay: 711
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.023 0.026 0.049 0.
+032 -0.039 delay: 714
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.024 0.027 0.049 0.
+033 -0.039 delay: 728
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.025 0.026 0.047 0.
+031 -0.039 delay: 719
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.026 0.048 0.
+030 -0.039 delay: 716
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.025 0.026 0.047 0.
+032 -0.039 delay: 689
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.023 -0.024 0.025 0.048 0.
+030 -0.039 delay: 700
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.023 0.026 0.050 0.
+030 -0.039 delay: 676
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.023 -0.023 0.026 0.050 0.
+029 -0.039 delay: 673
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.023 -0.024 0.027 0.048 0.
+031 -0.039 delay: 681
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.023 -0.023 0.026 0.049 0.
+031 -0.039 delay: 642
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.026 0.049 0.
+032 -0.039 delay: 657
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.023 -0.023 0.026 0.049 0.
+030 -0.039 delay: 696
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.024 0.027 0.051 0.
+032 -0.041 delay: 704
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.023 0.026 0.050 0.
+032 -0.040 delay: 708
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.027 0.049 0.
+031 -0.040 delay: 723
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.026 0.049 0.
+032 -0.040 delay: 692
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.023 0.026 0.049 0.
+030 -0.040 delay: 675
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.023 0.027 0.050 0.
+031 -0.040 delay: 665
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.023 0.026 0.050 0.
+030 -0.041 delay: 656
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.023 0.026 0.050 0.
+028 -0.040 delay: 669
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.023 0.026 0.049 0.
+030 -0.040 delay: 664
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.023 -0.024 0.027 0.048 0.
+030 -0.041 delay: 702
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.024 0.027 0.048 0.
+032 -0.040 delay: 667
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.023 0.027 0.048 0.
+033 -0.039 delay: 687
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.024 -0.024 0.027 0.049 0.
+032 -0.040 delay: 674
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.024 0.027 0.047 0.
+032 -0.041 delay: 721
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.025 -0.024 0.028 0.047 0.
+035 -0.040 delay: 768
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.023 -0.022 0.027 0.048 0.
+035 -0.037 delay: 866
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.022 0.028 0.048 0.
+034 -0.036 delay: 915
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.022 0.028 0.045 0.
+035 -0.034 delay: 1052
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.021 0.028 0.045 0.
+035 -0.033 delay: 1108
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.018 -0.020 0.026 0.048 0.
+035 -0.031 delay: 1100
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.017 -0.020 0.027 0.048 0.
+034 -0.031 delay: 1117
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.019 -0.021 0.028 0.045 0.
+032 -0.034 delay: 1101
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.021 0.027 0.048 0.
+033 -0.038 delay: 1015
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.022 0.027 0.048 0.
+032 -0.038 delay: 1031
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.022 0.027 0.047 0.
+031 -0.039 delay: 1064
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.023 0.028 0.047 0.
+033 -0.040 delay: 1075
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.023 -0.022 0.028 0.048 0.
+033 -0.038 delay: 1055
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.023 0.028 0.047 0.
+032 -0.038 delay: 1010
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.023 -0.023 0.028 0.047 0.
+034 -0.038 delay: 1039
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.023 -0.023 0.028 0.047 0.
+035 -0.038 delay: 1030
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.023 0.028 0.046 0.
+033 -0.038 delay: 975
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.023 0.028 0.047 0.
+032 -0.038 delay: 906
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.022 0.028 0.048 0.
+031 -0.037 delay: 877
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.023 0.028 0.048 0.
+032 -0.039 delay: 959
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.023 -0.022 0.028 0.049 0.
+032 -0.040 delay: 858
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.023 -0.022 0.028 0.049 0.
+034 -0.039 delay: 898
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.022 0.028 0.049 0.
+033 -0.039 delay: 892
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.022 0.027 0.048 0.
+032 -0.039 delay: 946
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.023 -0.023 0.028 0.048 0.
+032 -0.041 delay: 912
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.022 0.028 0.049 0.
+032 -0.040 delay: 902
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.023 0.028 0.048 0.
+031 -0.040 delay: 962
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.023 0.028 0.047 0.
+031 -0.038 delay: 996
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.022 0.029 0.049 0.
+031 -0.038 delay: 968
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.022 0.028 0.049 0.
+032 -0.039 delay: 853
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.023 0.028 0.049 0.
+031 -0.039 delay: 892
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.023 0.028 0.048 0.
+031 -0.039 delay: 833
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.022 0.028 0.048 0.
+031 -0.039 delay: 776
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.023 -0.022 0.028 0.048 0.
+031 -0.039 delay: 788
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.023 0.028 0.048 0.
+031 -0.039 delay: 834
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.023 0.028 0.049 0.
+031 -0.040 delay: 803
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.022 0.028 0.049 0.
+030 -0.040 delay: 851
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.021 0.028 0.051 0.
+030 -0.041 delay: 912
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.022 0.028 0.049 0.
+029 -0.040 delay: 941
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.022 0.029 0.050 0.
+030 -0.040 delay: 923
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.023 -0.022 0.028 0.050 0.
+031 -0.040 delay: 881
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.022 0.028 0.050 0.
+030 -0.040 delay: 892
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.023 0.028 0.049 0.
+030 -0.041 delay: 946
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.022 0.028 0.049 0.
+030 -0.040 delay: 912
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.022 0.028 0.049 0.
+030 -0.039 delay: 909
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.023 -0.022 0.028 0.051 0.
+031 -0.040 delay: 955
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.023 0.028 0.050 0.
+031 -0.039 delay: 927
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.023 0.029 0.047 0.
+030 -0.038 delay: 939
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.023 0.030 0.048 0.
+029 -0.039 delay: 885
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.023 0.029 0.048 0.
+029 -0.039 delay: 836
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.022 0.030 0.050 0.
+029 -0.039 delay: 841
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.022 0.029 0.050 0.
+029 -0.040 delay: 891
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.022 0.029 0.049 0.
+029 -0.040 delay: 892
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.022 0.029 0.049 0.
+028 -0.040 delay: 851
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.022 0.029 0.050 0.
+028 -0.040 delay: 863
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.022 0.029 0.050 0.
+029 -0.040 delay: 848
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.023 -0.023 0.029 0.048 0.
+029 -0.041 delay: 856
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.023 0.029 0.049 0.
+029 -0.041 delay: 912
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.022 0.029 0.049 0.
+028 -0.041 delay: 950
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.022 0.028 0.051 0.
+031 -0.039 delay: 981
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.023 0.029 0.047 0.
+031 -0.037 delay: 1125
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.021 0.029 0.049 0.
+031 -0.036 delay: 1142
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.022 0.029 0.048 0.
+032 -0.036 delay: 1061
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.019 -0.023 0.029 0.046 0.
+029 -0.036 delay: 999
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.021 0.029 0.048 0.
+032 -0.036 delay: 1119
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.021 0.030 0.049 0.
+030 -0.037 delay: 1063
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.022 0.029 0.048 0.
+031 -0.037 delay: 946
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.021 0.030 0.050 0.
+030 -0.038 delay: 977
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.021 0.030 0.050 0.
+030 -0.038 delay: 1011
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.021 0.030 0.049 0.
+032 -0.038 delay: 922
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.022 0.029 0.048 0.
+031 -0.040 delay: 937
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.021 0.029 0.049 0.
+030 -0.039 delay: 893
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.021 0.030 0.049 0.
+030 -0.039 delay: 882
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.021 0.029 0.048 0.
+031 -0.039 delay: 909
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.020 0.030 0.050 0.
+028 -0.040 delay: 949
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.019 -0.020 0.030 0.050 0.
+029 -0.038 delay: 981
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.021 0.029 0.049 0.
+029 -0.038 delay: 915
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.021 0.030 0.050 0.
+031 -0.039 delay: 987
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.021 0.030 0.049 0.
+030 -0.038 delay: 894
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.021 0.029 0.048 0.
+030 -0.038 delay: 1184
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.021 0.030 0.050 0.
+031 -0.039 delay: 1174
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.022 0.029 0.048 0.
+030 -0.040 delay: 1187
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.021 0.030 0.050 0.
+030 -0.041 delay: 1119
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.021 0.030 0.050 0.
+029 -0.040 delay: 1195
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.021 0.030 0.049 0.
+030 -0.041 delay: 920
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.021 0.030 0.049 0.
+030 -0.041 delay: 902
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.021 0.029 0.049 0.
+029 -0.041 delay: 1025
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.021 0.030 0.050 0.
+030 -0.041 delay: 1008
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.021 0.029 0.050 0.
+029 -0.039 delay: 1074
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.018 -0.021 0.029 0.049 0.
+027 -0.039 delay: 998
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.021 0.029 0.050 0.
+030 -0.039 delay: 950
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.022 0.029 0.047 0.
+030 -0.040 delay: 862
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.021 0.029 0.049 0.
+029 -0.040 delay: 915
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.019 0.030 0.051 0.
+030 -0.039 delay: 886
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.022 0.029 0.048 0.
+029 -0.041 delay: 816
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.021 0.029 0.049 0.
+029 -0.039 delay: 847
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.022 0.029 0.048 0.
+027 -0.042 delay: 838
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.022 0.029 0.047 0.
+028 -0.041 delay: 823
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.019 -0.023 0.029 0.046 0.
+027 -0.042 delay: 800
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.022 0.029 0.048 0.
+029 -0.041 delay: 780
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.023 0.029 0.049 0.
+026 -0.043 delay: 772
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.022 0.029 0.050 0.
+025 -0.041 delay: 883
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.023 0.030 0.049 0.
+027 -0.042 delay: 829
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.022 -0.021 0.030 0.051 0.
+028 -0.041 delay: 833
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.022 0.029 0.051 0.
+027 -0.043 delay: 861
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.022 0.030 0.050 0.
+026 -0.042 delay: 867
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.022 0.029 0.050 0.
+028 -0.043 delay: 857
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.022 0.029 0.050 0.
+028 -0.042 delay: 778
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.022 0.029 0.050 0.
+028 -0.042 delay: 786
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.022 0.028 0.052 0.
+029 -0.042 delay: 785
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.021 0.028 0.052 0.
+029 -0.043 delay: 854
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.022 0.029 0.051 0.
+030 -0.042 delay: 847
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.021 0.030 0.050 0.
+029 -0.041 delay: 828
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.021 0.029 0.051 0.
+028 -0.041 delay: 818
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.021 0.029 0.050 0.
+029 -0.042 delay: 823
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.021 0.029 0.049 0.
+029 -0.042 delay: 796
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.020 0.028 0.054 0.
+029 -0.044 delay: 766
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.021 0.028 0.050 0.
+029 -0.043 delay: 741
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.019 -0.021 0.027 0.050 0.
+029 -0.041 delay: 727
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.019 -0.020 0.027 0.053 0.
+030 -0.042 delay: 719
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.019 -0.019 0.027 0.052 0.
+029 -0.040 delay: 716
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.018 -0.019 0.027 0.052 0.
+028 -0.039 delay: 679
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.017 -0.020 0.027 0.051 0.
+026 -0.041 delay: 663
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.019 -0.018 0.027 0.053 0.
+029 -0.040 delay: 721
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.019 -0.018 0.026 0.055 0.
+029 -0.042 delay: 726
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.019 -0.020 0.027 0.052 0.
+032 -0.040 delay: 782
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.018 -0.019 0.026 0.051 0.
+032 -0.040 delay: 804
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.018 -0.019 0.026 0.052 0.
+031 -0.041 delay: 804
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.018 -0.019 0.026 0.053 0.
+030 -0.044 delay: 745
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.020 0.027 0.053 0.
+031 -0.046 delay: 754
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.021 0.025 0.053 0.
+032 -0.045 delay: 756
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.020 -0.020 0.026 0.052 0.
+032 -0.045 delay: 730
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.020 0.027 0.053 0.
+032 -0.044 delay: 723
+
+CPX: GAP8: CPX: GAP8: Position
+: -0.021 -0.021 0.025 0.053 0.
+031 -0.046 delay: 726
+

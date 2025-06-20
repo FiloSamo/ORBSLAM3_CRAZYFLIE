@@ -26,8 +26,8 @@ void DataGrabber::grabImage(const custom_msgs::msg::ImageAndInt::SharedPtr img_m
 {
     std::unique_lock<std::mutex> lock(mImgMutex);
 
-    /*if (!img0Buf.empty())
-        img0Buf.pop();  // Remove the oldest image to process the latest one */
+    if (!img0Buf.empty())
+        img0Buf.pop();  // Remove the oldest image to process the latest one
 
     img0Buf.push(img_msg);
     lock.unlock();

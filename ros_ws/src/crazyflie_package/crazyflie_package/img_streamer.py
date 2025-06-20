@@ -19,6 +19,9 @@ from rclpy.callback_groups import ReentrantCallbackGroup
 TOPIC_IMG = '/cam0/image_raw'
 ODOMETRY_TOPIC = '/orb_slam3/odom'
 
+## Debug
+FPS_FILE = 'fps.txt'
+
 # Custom CPX command
 WIFI_POSITION_SENDED = 0x40  # Must match the value in the C code
 
@@ -57,6 +60,10 @@ class CrazyflieIMGNode(Node):
         executor_thread.start()
 
         self.get_logger().info('Connecting to Crazyflie...')
+
+        ## Debug
+        with open(FPS_FILE, 'w') as f:
+            f.write('')
     
     def rx_bytes(self, size):
         data = bytearray()
@@ -145,6 +152,10 @@ class CrazyflieIMGNode(Node):
             n_time = second + nsecond*1e-9
             fps = int(1 / (n_time - self.time) if n_time - self.time != 0 else 0)
             self.get_logger().info('Image number: %d \t timestamp: %d \t fps: %d' % (self.count, timestamp, fps))
+            # Debug FPS
+            with open(FPS_FILE, 'a') as f:
+                f.write(f"{fps}\n")
+                
             self.time = n_time
         except Exception as e:
             self.get_logger().error(f"[Receiver Error] {e}")
