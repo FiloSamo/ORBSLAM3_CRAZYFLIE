@@ -127,7 +127,7 @@ The default values are those shown in the example command.
 
 ## Demo
 
-<video controls src="CyberPhysical_demo.mp4" title="Demo"></video>
+<video controls src="demo.mp4" title="Demo"></video>
 
 ## Calibration (suggested procedure)
 
