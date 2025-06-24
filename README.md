@@ -128,7 +128,9 @@ The default values are those shown in the example command.
 
 ## Demo
 
-<video controls src="demo.mp4" title="Demo"></video>
+![alt text](demo.gif)
+
+In this demo, we show the algorithm operating in a rectangular room. You can observe the algorithm restoring the correct position after losing feature tracking. Additionally, the algorithm is able to close the loop when the drone returns to the starting position, compensating for drift error.
 
 ## Calibration (suggested procedure)
 
