@@ -82,11 +82,22 @@ ORBSLAM3_CRAZYFLIE/
 
 To perform Visual-Inertial Odometry with the Crazyflie, you must set up the hardware correctly. Follow the guide provided by Bitcraze to set up the drone and the AI deck firmware: https://www.bitcraze.io/documentation/tutorials/getting-started-with-aideck/
 
+We have implemented a custom AI-deck application for this project. To use it, first download the AI-deck examples folder from: https://github.com/bitcraze/aideck-gap8-examples. Replace the `examples/other/wifi-img-streamer` folder with our implementation. Then, follow the commands suggested in the AI deck guide:
+
+1. Build the application:
+    ```bash
+    sudo docker run --rm -v ${PWD}:/module --privileged bitcraze/aideck tools/build/make-example examples/other/wifi-img-streamer clean all
+    ```
+2. Upload to the Crazyflie:
+    ```bash
+    cfloader flash examples/other/wifi-img-streamer/BUILD/GAP8_V2/GCC_RISCV_FREERTOS/target.board.devices.flash.img deck-bcAI:gap8-fw -w [CRAZYFLIE_URI]
+    ```
+
 After setting up the drone, you **must** perform a calibration to obtain the intrinsic parameters of the camera and the IMU, as well as the homogeneous transformation between the camera frame and the IMU frame. Then, update the parameters inside the ORBSLAM3_CRAZYFLIE project.
 
 The parameters used by orb_slam3 are in the `camera_and_slam_settings.yaml` file inside the `config` folder of the orb_slam3 ROS2 package (`~/ORBSLAM3_CRAZYFLIE/ros_ws/src/orb_slam3/config/camera_and_slam_settings.yaml`). 
 
-**Note:** When this project was implemented, the latest firmware release (2025.02) did not work properly (the image stream was blocked after some time), so release 2024.10.2 was used.
+**Note:** When this project was implemented, the latest firmware release (2025.02) did not work properly (the image stream was blocked after some time), so release 2024.2 was used.
 
 ## Usage
 
