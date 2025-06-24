@@ -132,19 +132,6 @@ void rx_task(void *parameters)
   }
 }
 
-float bytes_to_float(const uint8_t *bytes) {
-    float f;
-    uint8_t reversed[4];
-
-    reversed[0] = bytes[3];
-    reversed[1] = bytes[2];
-    reversed[2] = bytes[1];
-    reversed[3] = bytes[0];
-
-    memcpy(&f, reversed, sizeof(float));
-    return f;
-}
-
 static CPXPacket_t wifipacket;
 void rx_from_wifi(void *parameters)
 {
@@ -161,19 +148,26 @@ void rx_from_wifi(void *parameters)
       	cpxPrintToConsole(LOG_TO_CRTP, "");
       	float position[6];
       	for(int i = 0; i < 6; i++) {
-	    position[i] = bytes_to_float(&wifiCtrl->data[i*4]);
-	}
+            uint32_t as_int = ((uint32_t)wifiCtrl->data[4*i] << 24) |
+                              ((uint32_t)wifiCtrl->data[4*i+1] << 16) |
+                              ((uint32_t)wifiCtrl->data[4*i+2] << 8) |
+                              ((uint32_t)wifiCtrl->data[4*i+3]);
+            float f;
+            memcpy(&f, &as_int, sizeof(float));
+            position[i] = f;
+        }
         
         uint32_t timestamp = (uint32_t)wifiCtrl->data[24] << 24 |
                           (uint32_t)wifiCtrl->data[25] << 16 |
                           (uint32_t)wifiCtrl->data[26] << 8 |
                           (uint32_t)wifiCtrl->data[27];
         uint32_t delay = xTaskGetTickCount() - timestamp;
-	cpxPrintToConsole(LOG_TO_CRTP, "Position: %0.3f %0.3f %0.3f %0.3f %0.3f %0.3f delay: %d\n",
+	      cpxPrintToConsole(LOG_TO_CRTP, "Position: %0.3f %0.3f %0.3f %0.3f %0.3f %0.3f delay: %d\n",
                           position[0], position[1], position[2],
                           position[3], position[4], position[5], delay);
       // CUSTOM CODE END
-
+        break;
+        
       default:
         break;
     }

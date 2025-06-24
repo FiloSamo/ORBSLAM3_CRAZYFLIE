@@ -44,7 +44,7 @@ while i < len(lines):
         match = re.search(r":\s*([-\d\.\s]+)delay:\s*(-?\d+)", data_line)
         if match:
             pos_str = match.group(1)
-            pos = [float(x) for x in pos_str.split()]
+            pos = [np.float32(x) for x in pos_str.split()]
             delay = int(match.group(2))
             positions.append(pos)
             latency.append(delay)

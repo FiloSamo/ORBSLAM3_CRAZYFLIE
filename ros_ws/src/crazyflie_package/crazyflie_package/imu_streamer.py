@@ -99,9 +99,9 @@ class CrazyflieIMUNode(Node):
         imu_msg.header.frame_id = "imu0"
 
         # Convert raw values into SI units if needed
-        imu_msg.linear_acceleration.x = data['acc.x']
-        imu_msg.linear_acceleration.y = data['acc.y']
-        imu_msg.linear_acceleration.z = data['acc.z']
+        imu_msg.linear_acceleration.x = data['acc.x'] * 9.81  # Convert from g to m/s^2
+        imu_msg.linear_acceleration.y = data['acc.y'] * 9.81  # Convert from g to m/s^2
+        imu_msg.linear_acceleration.z = data['acc.z'] * 9.81  # Convert from g to m/s^2
 
         imu_msg.angular_velocity.x = math.radians(data['gyro.x'])
         imu_msg.angular_velocity.y = math.radians(data['gyro.y'])

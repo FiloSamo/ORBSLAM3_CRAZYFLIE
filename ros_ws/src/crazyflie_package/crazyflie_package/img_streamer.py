@@ -166,9 +166,10 @@ class CrazyflieIMGNode(Node):
         # Extract position and orientation from the Odometry message
         position = msg.pose.pose.position
         orientation = msg.pose.pose.orientation
-        x = float(position.x)
-        y = float(position.y)
-        z = float(position.z)
+        # Convert position to float32 to match the Crazyflie expected format
+        x = np.float32(position.x)
+        y =  np.float32(position.y)
+        z =  np.float32(position.z)
         # Convert orientation from quaternion to Euler angles (roll, pitch, yaw)
 
         # Convert quaternion to roll, pitch, yaw

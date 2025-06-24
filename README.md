@@ -116,7 +116,7 @@ The default values are those shown in the example command.
 
 To use VIO, you need to provide the correct intrinsic parameters for the camera and the IMU. In addition, you need to provide the homogeneous transformation between the camera and the IMU. 
 
-You can perform the calibration as you prefer; in our case, we used the well-established Kalibr tool. To use the Kalibr calibration package, ROS1 Melodic is necessary. We used a Docker container with ROS1 Melodic to run the code.
+You can perform the calibration as you prefer; in our case, we used the well-established Kalibr tool https://github.com/ethz-asl/kalibr. To use the Kalibr calibration package, ROS1 Melodic is necessary. We used a Docker container with ROS1 Melodic to run the code.
 
 #### Camera calibration
 
@@ -146,7 +146,7 @@ After recording, run the Kalibr node to obtain the extrinsic parameters of the c
     rosrun kalibr kalibr_calibrate_cameras --target ./param.yaml --bag ./calibration_bag.bag --models pinhole-radtan --topics /cam0/image_raw
     ```
 
-3. The parameters will be inserted by the script in the `camchain.yaml` file.
+3. The parameters will be inserted by the script in the `calibration_bag-camchain.yaml` file.
 
 #### IMU noise density and random walk estimation
 
@@ -179,6 +179,12 @@ To estimate the noise density and random walk, you can use the ROS1 package `all
     rosrun allan_variance_ros allan_variance ./bag_folder ./config.yaml
     ```
 
+5. The next step is to visualize the plots and get parameters estimation:
+
+    ```bash
+    rosrun allan_variance_ros analysis.py --data ./bag_folder/allan_variance.csv
+    ```
+
 An `imu.yaml` file will be created with the estimated parameters.
 
 #### Joint Camera and IMU calibration
@@ -186,7 +192,7 @@ An `imu.yaml` file will be created with the estimated parameters.
 After `camchain.yaml` and `imu.yaml` are ready, use the previously recorded rosbag to obtain the homogeneous transformation.
 
 ```bash
-rosrun kalibr_calibrate_imu_camera --bag ./calibration_bag.bag --cam ./camchain.yaml --imu ./imu.yaml --target ./param.yaml
+rosrun kalibr kalibr_calibrate_imu_camera --bag ./calibration_bag.bag --cam ./camchain.yaml --imu ./imu.yaml --target ./param.yaml
 ```
 The result is written inside the `calibration_bag-camchain-imucam.yaml` file.
 
