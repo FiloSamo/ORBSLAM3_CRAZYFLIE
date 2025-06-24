@@ -16,6 +16,19 @@ ORBSLAM3_CRAZYFLIE is a project that integrates the ORB-SLAM3 Visual-Inertial Od
 - Python 3.x
 - C++17 compatible compiler
 
+## Project Structure
+
+ORBSLAM3_CRAZYFLIE/
+├── Pangolin/ # Custom build of Pangolin library
+├── ORB_SLAM3/ # ORB-SLAM3 source code
+└── ros_ws/ # ROS2 workspace
+  └── src/
+    ├── crazyflie_package/ # Nodes for streaming from Crazyflie
+    └── orb_slam3/ # ORB-SLAM3 ROS2 integration
+         └── config/ # Calibration files (e.g., camera_and_slam_settings.yaml)
+
+![alt text](Project_structure.png)
+
 ## Installation
 
 1. Clone this repository:
@@ -111,6 +124,10 @@ Example usage:
 ros2 launch crazyflie_package streaming.launch.py URI:=radio://0/86/2M/E7E7E7E7ED IP:=192.168.4.1 PORT:=5000 LOG_ACTIVE:=False
 ```
 The default values are those shown in the example command.
+
+## Demo
+
+<video controls src="CyberPhysical_demo.mp4" title="Demo"></video>
 
 ## Calibration (suggested procedure)
 
@@ -217,7 +234,7 @@ The parameters used by ORB-SLAM3 are in the `camera_and_slam_settings.yaml` file
 
 This project is licensed under the GPLv3 License.
 
-## References
+## Citation
 
 - Campos, C., Elvira, R., Gómez, J. J., Montiel, J. M. M., & Tardós, J. D. (2021). [ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual-Inertial and Multi-Map SLAM](https://ieeexplore.ieee.org/document/9584257). *IEEE Transactions on Robotics*, 37(6), 1874-1890.
 
