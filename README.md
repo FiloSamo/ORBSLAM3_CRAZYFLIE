@@ -18,6 +18,7 @@ ORBSLAM3_CRAZYFLIE is a project that integrates the ORB-SLAM3 Visual-Inertial Od
 
 ## Project Structure
 
+ ```
 ORBSLAM3_CRAZYFLIE/
 ├── Pangolin/ # Custom build of Pangolin library
 ├── ORB_SLAM3/ # ORB-SLAM3 source code
@@ -26,7 +27,7 @@ ORBSLAM3_CRAZYFLIE/
     ├── crazyflie_package/ # Nodes for streaming from Crazyflie
     └── orb_slam3/ # ORB-SLAM3 ROS2 integration
          └── config/ # Calibration files (e.g., camera_and_slam_settings.yaml)
-
+ ```
 ![alt text](Project_structure.png)
 
 ## Installation
