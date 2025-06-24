@@ -10,8 +10,8 @@
 #  University of Bologna, Italy
 #  License: BSD-3-Clause
 
-#  This script processes a log file from a Crazyflie drone, extracting position data and delays,
-#  and visualizes the trajectory in 3D along with delays and frames per second (FPS) data.
+#  This script processes a log file from a Crazyflie drone, extracting position data and latency times,
+#  and visualizes the trajectory in 3D along with latency and frames per second (FPS) data.
 #  It also computes a weighted mean of FPS values over a specified window size.
 
 
@@ -23,7 +23,7 @@ logfile = "console_crazyflie.txt"
 fps_file = "fps.txt"
 
 positions = []
-delays = []
+latency = []
 
 with open(logfile, "r") as f:
     lines = f.readlines()
@@ -47,14 +47,14 @@ while i < len(lines):
             pos = [float(x) for x in pos_str.split()]
             delay = int(match.group(2))
             positions.append(pos)
-            delays.append(delay)
+            latency.append(delay)
     i += 1
 
 positions = np.array(positions)
-delays = np.array(delays)
+latency = np.array(latency)
 
-print("positions shape:", positions.shape)
-print("delays shape:", delays.shape)
+# print("positions shape:", positions.shape)
+# print("latency shape:", latency.shape)
 
 # Plotting the positions in 3D
 fig = plt.figure()
@@ -67,13 +67,29 @@ ax.grid(True)
 plt.plot(positions[:, 0], positions[:, 1], positions[:, 2], 'o-')
 plt.show()
 
-# Plotting the delays
+
+# Plotting the latency times with mean and moving average in a single plot
 plt.figure()
-plt.plot(delays[1:], label='Delay')
+plt.plot(latency[2:], label='Latency', color='blue')
+latency_mean = np.mean(latency)
+plt.axhline(y=latency_mean, color='orangered', linestyle='--', label='Mean Latency')
+
+window_size = 100  # Same window size as FPS
+latency_moving_avg = []
+for i in range(len(latency)):
+    start = i
+    end = window_size + i
+    if end > len(latency):
+        end = len(latency)
+    window = latency[start:end]
+    moving_avg = np.mean(window)
+    latency_moving_avg.append(moving_avg)
+
+plt.plot(latency_moving_avg[2:], label=f'Moving Average (window={window_size})', color='red')
 plt.xlabel('Sample Index')
-plt.ylabel('Delay (ms)')
-plt.title('Delays in Position Data')
-plt.legend()
+plt.ylabel('Latency time (ms)')
+plt.title('Latency in Position Feedback')
+plt.legend(loc='upper right')
 plt.grid(True)
 plt.show()
 
@@ -83,40 +99,27 @@ with open(fps_file, "r") as f:
 
 fps = [int(line.strip()) for line in lines if line.strip().isdigit()]
 
-# Plot FPS values and mean
+# Plot FPS values with mean and moving average in a single plot
 plt.figure()
-plt.plot(fps, label='FPS')
+plt.plot(fps[2:], label='FPS', color='blue')
 fps_mean = np.mean(fps)
-fps_mean = int(fps_mean)
-plt.axhline(y=fps_mean, color='orange', linestyle='--', label='Mean FPS')
+plt.axhline(y=fps_mean, color='orangered', linestyle='--', label='Mean FPS')
 
-plt.xlabel('Sample Index')
-plt.ylabel('FPS')
-plt.title('Frames Per Second (FPS)')
-plt.legend()
-plt.grid(True)
-plt.show()
-
-window_size = 50  # Number of data points in the window
-half_window = window_size // 2
-
-fps_weighted_mean = []
+window_size = 80  # Same window size as before
+fps_moving_avg = []
 for i in range(len(fps)):
     start = i
     end = window_size + i
     if end > len(fps):
         end = len(fps)
     window = fps[start:end]
-    weighted_mean = np.mean(window)
-    fps_weighted_mean.append(weighted_mean)
+    moving_avg = np.mean(window)
+    fps_moving_avg.append(moving_avg)
 
-# Plot FPS and weighted mean FPS
-plt.figure()
-plt.plot(fps, label='FPS')
-plt.plot(fps_weighted_mean, label=f'Weighted Mean FPS (window={window_size})', color='orange')
+plt.plot(fps_moving_avg[2:], label=f'Moving Average (window={window_size})', color='red')
 plt.xlabel('Sample Index')
 plt.ylabel('FPS')
 plt.title('Frames Per Second (FPS)')
-plt.legend()
+plt.legend(loc='upper right')
 plt.grid(True)
 plt.show()
