@@ -42,12 +42,12 @@ import time
 import socket,os,struct, time
 import numpy as np
 
-## FILIPPO
+## MODIFIED
 
 # Custom CPX command
 WIFI_POSITION_SENDED = 0x40  # Must match the value in the C code
 
-## FILIPPO END
+## MODIFIED END
 
 # Args for setting IP/port of AI-deck. Default settings are for when
 # AI-deck is in AP mode.
@@ -74,7 +74,7 @@ def rx_bytes(size):
     data.extend(client_socket.recv(size-len(data)))
   return data
 
-## FILIPPO
+## MODIFIED
 
 import bitstruct
 
@@ -105,7 +105,7 @@ def send_position(client_socket, x, y, z, roll, pitch, yaw, timestamp):
   # Send the packet
   client_socket.sendall(full_packet)
 
-  ## FILIPPO END
+  ## MODIFIED END
 
 import cv2
 
@@ -142,7 +142,7 @@ while(1):
           chunk = rx_bytes(length - 2)
           imgStream.extend(chunk)
 
-      ## FILIPPO
+      ## MODIFIED
       # Read the time from the stream
       packetInfoRaw = rx_bytes(4)
       [length, routing, function] = struct.unpack('<HBB', packetInfoRaw)
@@ -150,7 +150,7 @@ while(1):
 
       timestamp = np.frombuffer(timestamp_data, dtype=np.uint32)   
       print(timestamp)
-      ## FILIPPO END
+      ## MODIFIED END
 
       count = count + 1
       meanTimePerImage = (time.time()-start) / count

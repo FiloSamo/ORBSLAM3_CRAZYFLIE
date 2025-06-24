@@ -9,7 +9,7 @@
  * Authors: Filippo Samorì, Filippo Ugolini and Daniele Crivellari
  * 20/06/2025
  * University of Bologna, Italy
- * License: BSD-3-Clause
+ * License: GPL-3.0
  */ 
 
 #include <rclcpp/rclcpp.hpp>
@@ -37,7 +37,7 @@ int main(int argc, char *argv[])
     rclcpp::init(argc, argv);
 
     // Create a ROS node
-    auto node = std::make_shared<rclcpp::Node>("example_slam");
+    auto node = std::make_shared<rclcpp::Node>("orbslam3_node");
 
     // Declare parameters for the node
     node->declare_parameter("config_path", "");

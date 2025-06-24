@@ -207,15 +207,18 @@ rosbag filter calibration_bag.bag trimmed_calibration_bag.bag "t.to_sec() > [new
 After calibration, update the parameters inside the ORBSLAM3_CRAZYFLIE project.
 The parameters used by ORB-SLAM3 are in the `camera_and_slam_settings.yaml` file inside the `config` folder of the orb_slam3 ROS2 package (`~/ORBSLAM3_CRAZYFLIE/ros_ws/src/orb_slam3/config/camera_and_slam_settings.yaml`). 
 
-## Contributing
-
-Contributions are welcome! Please open issues or submit pull requests.
-
 ## License
 
 This project is licensed under the GPLv3 License.
 
-## Acknowledgements
+## References
 
-- [ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3)
-- [Bitcraze Crazyflie](https://www.bitcraze.io/)
+- Campos, C., Elvira, R., Gómez, J. J., Montiel, J. M. M., & Tardós, J. D. (2021). [ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual-Inertial and Multi-Map SLAM](https://ieeexplore.ieee.org/document/9584257). *IEEE Transactions on Robotics*, 37(6), 1874-1890.
+
+- Consiglio, A. (2024, September 10). [Integrating ORB-SLAM3 with ROS2 Humble on Raspberry Pi 5: A Step-by-Step Guide](https://medium.com/@antonioconsiglio/integrating-orb-slam3-with-ros2-humble-on-raspberry-pi-5-a-step-by-step-guide-78e7b911c361). *Medium*.
+
+- Furgale, P., Rehder, J., & Siegwart, R. (2013). [Unified Temporal and Spatial Calibration for Multi-Sensor Systems](https://github.com/ethz-asl/kalibr). *Kalibr: A Toolbox for Camera-IMU Calibration*, ETH Zurich Autonomous Systems Lab.
+
+- Buchanan, R. (2021). [Allan Variance ROS (Version 1.2)](https://github.com/ori-drs/allan_variance_ros). Oxford Robotics Institute, DRS Lab.
+
+- Lovegrove, S. (2019). [Pangolin: A Lightweight Portable Rapid Development Library for Managing OpenGL Display and Interaction](https://github.com/stevenlovegrove/Pangolin).

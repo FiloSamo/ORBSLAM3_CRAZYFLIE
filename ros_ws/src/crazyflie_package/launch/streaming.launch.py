@@ -8,7 +8,7 @@
 #  Authors: Filippo Samorì, Filippo Ugolini and Daniele Crivellari
 #  20/06/2025
 #  University of Bologna, Italy
-#  License: BSD-3-Clause
+#  License: GPL-3.0
 
 from launch import LaunchDescription
 from ament_index_python.packages import get_package_share_directory

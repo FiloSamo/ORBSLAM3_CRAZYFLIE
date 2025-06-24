@@ -8,7 +8,7 @@
 #  Authors: Filippo Samorì, Filippo Ugolini and Daniele Crivellari
 #  20/06/2025
 #  University of Bologna, Italy
-#  License: BSD-3-Clause
+#  License: GPL-3.0
 
 #  This script processes a log file from a Crazyflie drone, extracting position data and latency times,
 #  and visualizes the trajectory in 3D along with latency and frames per second (FPS) data.

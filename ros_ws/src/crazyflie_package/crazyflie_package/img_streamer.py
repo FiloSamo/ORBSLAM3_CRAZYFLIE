@@ -8,7 +8,7 @@
 #  Authors: Filippo Samorì, Filippo Ugolini and Daniele Crivellari
 #  20/06/2025
 #  University of Bologna, Italy
-#  License: BSD-3-Clause
+#  License: GPL-3.0
 
 import rclpy
 from rclpy.node import Node
