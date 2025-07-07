@@ -244,6 +244,18 @@ rosbag filter calibration_bag.bag trimmed_calibration_bag.bag "t.to_sec() > [new
 After calibration, update the parameters inside the ORBSLAM3_CRAZYFLIE project.
 The parameters used by ORB-SLAM3 are in the `camera_and_slam_settings.yaml` file inside the `config` folder of the orb_slam3 ROS2 package (`~/ORBSLAM3_CRAZYFLIE/ros_ws/src/orb_slam3/config/camera_and_slam_settings.yaml`). 
 
+## Contributions
+
+The project was mainly developed as a group effort during shared work sessions.
+The code was always reviewed collaboratively and checked by all group members, while the main individual contributions were:
+
+* **Daniele Crivellari**: Implementation of image acquisition. Preparation of the PowerPoint presentation.
+
+* **Filippo Ugolini**: Implementation of IMU data acquisition. Preparation of the PowerPoint presentation.
+
+* **Filippo Samorì**: Integration of ROS2 and ORB-SLAM3. Development of the application on the AI-deck. Writing of the README.
+
+
 ## License
 
 This project is licensed under the GPLv3 License.
