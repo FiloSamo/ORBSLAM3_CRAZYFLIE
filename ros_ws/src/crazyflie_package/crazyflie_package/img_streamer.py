@@ -86,8 +86,8 @@ class CrazyflieIMGNode(Node):
         executor_thread.start()
 
         # Debug
-        with open(FPS_FILE, 'w') as f:
-            f.write('')
+        # with open(FPS_FILE, 'w') as f:
+        #     f.write('')
 
     def rx_bytes(self, size):
         """
@@ -251,8 +251,8 @@ class CrazyflieIMGNode(Node):
                 self.get_logger().info('Image counter: %d timestamp: %d fps: %d Received Pose Counter: %d' % (self.img_count, timestamp, self.fps, self.pose_count))
                 
                 # Debug FPS
-                with open(FPS_FILE, 'a') as f:
-                    f.write(f"{self.fps}\n")
+                # with open(FPS_FILE, 'a') as f:
+                #     f.write(f"{self.fps}\n")
                     
                 self.fps = 1
                 self.time = n_time
