@@ -34,7 +34,7 @@ TOPIC_IMG = '/cam0/image_raw'
 ODOMETRY_TOPIC = '/orb_slam3/odom'
 
 ## Debug
-#FPS_FILE = 'fps.txt'
+FPS_FILE = 'fps.txt'
 
 # Custom CPX command
 WIFI_POSITION_SENDED = 0x40  # Must match the value in the C-code upload to the Crazyflie
@@ -56,6 +56,7 @@ class CrazyflieIMGNode(Node):
         self.pose_count = 0
         # Time variable
         self.time = 0
+        self.fps = 0
 
         # Callback group for reentrant callbacks - allows multiple callbacks to be executed concurrently
         self.callback_group = ReentrantCallbackGroup()
@@ -84,9 +85,9 @@ class CrazyflieIMGNode(Node):
         executor_thread = Thread(target=executor.spin, daemon=True, args=())
         executor_thread.start()
 
-        ## Debug
-        # with open(FPS_FILE, 'w') as f:
-        #     f.write('')
+        # Debug
+        with open(FPS_FILE, 'w') as f:
+            f.write('')
 
     def rx_bytes(self, size):
         """
@@ -240,14 +241,24 @@ class CrazyflieIMGNode(Node):
             ## Compute information for the log
             second , nsecond  = self.get_clock().now().seconds_nanoseconds()
             n_time = second + nsecond*1e-9
-            fps = int(1 / (n_time - self.time) if n_time - self.time != 0 else 0)
-            self.get_logger().info('Image counter: %d timestamp: %d fps: %d Received Pose Counter: %d' % (self.img_count, timestamp, fps, self.pose_count))
-            self.img_count += 1
-            # # Debug FPS
-            # with open(FPS_FILE, 'a') as f:
-            #     f.write(f"{fps}\n")
+            if self.time == 0:
+                self.time = n_time
 
-            self.time = n_time
+            # Increment the image count
+            self.img_count += 1
+
+            if n_time > self.time + 1.0:
+                self.get_logger().info('Image counter: %d timestamp: %d fps: %d Received Pose Counter: %d' % (self.img_count, timestamp, self.fps, self.pose_count))
+                
+                # Debug FPS
+                with open(FPS_FILE, 'a') as f:
+                    f.write(f"{self.fps}\n")
+                    
+                self.fps = 1
+                self.time = n_time
+            else:
+                self.fps = self.fps + 1
+
         except Exception as e:
             self.get_logger().error(f"[Receiver Error] {e}")
             return 0

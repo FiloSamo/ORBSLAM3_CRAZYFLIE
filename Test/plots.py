@@ -19,7 +19,7 @@ import re
 import numpy as np
 import matplotlib.pyplot as plt
 
-logfile = "console_crazyflie.txt"
+logfile = "console_crazyflie_demo.txt"
 fps_file = "fps.txt"
 
 positions = []
@@ -68,24 +68,13 @@ plt.plot(positions[:, 0], positions[:, 1], positions[:, 2], 'o-')
 plt.show()
 
 
-# Plotting the latency times with mean and moving average in a single plot
+# Plotting the latency times with mean 
+
 plt.figure()
-plt.plot(latency[2:], label='Latency', color='blue')
+plt.plot(latency[4:], label='Latency', color='blue')
 latency_mean = np.mean(latency)
 plt.axhline(y=latency_mean, color='orangered', linestyle='--', label='Mean Latency')
 
-window_size = 100  # Same window size as FPS
-latency_moving_avg = []
-for i in range(len(latency)):
-    start = i
-    end = window_size + i
-    if end > len(latency):
-        end = len(latency)
-    window = latency[start:end]
-    moving_avg = np.mean(window)
-    latency_moving_avg.append(moving_avg)
-
-plt.plot(latency_moving_avg[2:], label=f'Moving Average (window={window_size})', color='red')
 plt.xlabel('Sample Index')
 plt.ylabel('Latency time (ms)')
 plt.title('Latency in Position Feedback')
@@ -99,25 +88,13 @@ with open(fps_file, "r") as f:
 
 fps = [int(line.strip()) for line in lines if line.strip().isdigit()]
 
-# Plot FPS values with mean and moving average in a single plot
+# Plot FPS values with mean
 plt.figure()
-plt.plot(fps[2:], label='FPS', color='blue')
+plt.plot(fps[1:270], label='FPS', color='blue')
 fps_mean = np.mean(fps)
 plt.axhline(y=fps_mean, color='orangered', linestyle='--', label='Mean FPS')
 
-window_size = 80  # Same window size as before
-fps_moving_avg = []
-for i in range(len(fps)):
-    start = i
-    end = window_size + i
-    if end > len(fps):
-        end = len(fps)
-    window = fps[start:end]
-    moving_avg = np.mean(window)
-    fps_moving_avg.append(moving_avg)
-
-plt.plot(fps_moving_avg[2:], label=f'Moving Average (window={window_size})', color='red')
-plt.xlabel('Sample Index')
+plt.xlabel('Seconds')
 plt.ylabel('FPS')
 plt.title('Frames Per Second (FPS)')
 plt.legend(loc='upper right')
